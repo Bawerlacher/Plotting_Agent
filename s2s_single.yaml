@@ -1,0 +1,39 @@
+# s2s_single.yaml
+
+## Where the samples will be written
+save_data: data/s2s_single/run/example
+## Where the vocab(s) will be written
+src_vocab: data/s2s_single/run/example.vocab.src
+tgt_vocab: data/s2s_single/run/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: data/s2s_single/src-train.txt
+        path_tgt: data/s2s_single/tgt-train.txt
+        weight: 1
+    valid:
+        path_src: data/s2s_single/src-val.txt
+        path_tgt: data/s2s_single/tgt-val.txt
+
+# Vocabulary files that were just created
+src_vocab: data/s2s_single/run/example.vocab.src
+tgt_vocab: data/s2s_single/run/example.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: models/s2s_single_0
+save_checkpoint_steps: 10000
+train_steps: 100000
+valid_steps: 5000
+report_every: 100
+
+encoder_type: brnn
+layers: 2
+rnn_size: 128 
+batch_size: 16

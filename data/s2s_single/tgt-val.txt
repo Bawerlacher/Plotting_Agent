@@ -1,0 +1,1562 @@
+plot_type streamline_plot density loose arrow_size large arrow_style curve line_width medium line_color different color_map magenta_to_yellow color_bar_orientation vertical color_bar_length long color_bar_thickness medium x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+line_width thin invert_x_axis True invert_y_axis True grid_line_type both grid_line_color orange grid_line_style dotted grid_line_width very_thin
+line_width medium font_size small grid_line_type horizontal grid_line_width thin
+line_width different
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map magenta_to_yellow color_bar_orientation horizontal color_bar_length short color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+number_of_levels 10 line_width thin font_size small
+plot_type line_chart line_style solid line_width medium line_color black marker_type circles marker_size small marker_face_color gray marker_edge_width thin marker_edge_color magenta marker_interval 1 polarize True data_series_name Trajectory font_size medium
+line_color magenta marker_type triangles marker_size medium font_size large
+marker_size large
+line_width thin marker_edge_width medium
+plot_type scatter_plot marker_type diamonds marker_size medium marker_face_color gray marker_edge_width medium marker_edge_color black polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position right data_series_name Branches font_size medium invert_x_axis False invert_y_axis False
+marker_size large font_size large invert_y_axis True
+marker_size small
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color red bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width None bar_edge_color None show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red y_axis_scale log
+bar_width 0.8 error_bar_cap_thickness thick font_size small
+font_size large
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+number_of_levels 15 x_axis_position top y_axis_position right invert_x_axis True invert_y_axis True
+font_size small
+x_axis_scale log y_axis_scale log
+color_map transparent_green_to_solid_blue
+grid_line_type horizontal grid_line_color black grid_line_style dashed_dots grid_line_width thin
+grid_line_width very_thin
+color_bar_thickness medium
+plot_type bar_plot bar_face_color orange bar_edge_width thin bar_edge_color red bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width very_thin
+bar_edge_width medium x_axis_position top y_axis_position right
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None invert_x_axis True
+bar_height 0.8 data_series_name Data_Size
+bar_height 0.6 x_axis_scale log grid_line_color orange
+font_size large
+plot_type line_chart marker_type circles marker_size large marker_face_color blue marker_edge_width thin marker_edge_color green marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis True invert_y_axis True
+marker_type diamonds marker_edge_width medium y_axis_scale log
+marker_interval 2 data_series_name Power font_size small
+font_size medium
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color orange bar_width 0.6
+bar_edge_width thin bar_edge_color gray y_axis_position right
+bar_edge_width medium show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red grid_line_type both grid_line_color orange grid_line_style dashed_dots grid_line_width very_thin
+error_bar_cap_size medium error_bar_cap_thickness thick data_series_name Data grid_line_type vertical
+font_size large
+error_bar_cap_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_green_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+number_of_levels 10 color_bar_length long color_bar_thickness medium
+number_of_levels 15
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+radius small
+precision_digits 3
+explode None font_size large
+explode small label_distance_from_center far
+plot_type streamline_plot density dense arrow_size large arrow_style solid line_width medium line_color different color_map transparent_to_solid_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thick x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_green_to_solid_blue
+grid_line_type vertical grid_line_color red grid_line_style dotted grid_line_width thin
+line_width thin grid_line_width very_thin
+line_width thick
+line_width different
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map red_to_white_to_blue color_bar_orientation horizontal color_bar_length long color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None invert_x_axis None invert_y_axis None
+number_of_levels 6 color_bar_length short font_size small
+grid_line_width thin
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+precision_digits 1
+percentage_distance_from_center far label_distance_from_center far font_size small
+percentage_distance_from_center near
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map red_to_yellow color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color blue grid_line_style solid grid_line_width very_thin
+arrow_size large invert_x_axis True invert_y_axis True grid_line_color magenta
+plot_type histogram number_of_bins 6 bar_relative_width 0.6 bar_face_color red bar_edge_width thin bar_edge_color magenta x_axis_position bottom y_axis_position left data_series_name Score font_size medium invert_x_axis True invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+font_size large grid_line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center far radius medium font_size large
+label_distance_from_center near radius small
+precision_digits 2 percentage_distance_from_center far
+explode small
+explode large section_edge_width thin section_edge_color black
+section_edge_width medium
+plot_type bar_plot bar_face_color gray bar_orientation vertical bar_width 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color blue y_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+y_axis_scale log invert_y_axis True
+y_axis_position left
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Score font_size medium invert_x_axis False invert_y_axis False
+bar_width 0.8 x_axis_position top y_axis_position right
+bar_orientation horizontal bar_width None bar_height 0.8 x_axis_scale linear y_axis_scale None
+font_size small grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+invert_y_axis True grid_line_color gray
+plot_type histogram number_of_bins 10 bar_relative_width 1 bar_face_color red bar_edge_width thin bar_edge_color magenta x_axis_position bottom y_axis_position left data_series_name User_Ratings font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color red grid_line_style solid grid_line_width thin
+x_axis_position top
+bar_relative_width 0.8 bar_edge_width medium font_size small invert_x_axis True
+bar_relative_width 0.6
+plot_type line_chart line_style solid line_width thick line_color black marker_type diamonds marker_size large marker_face_color orange marker_edge_width thin marker_edge_color red marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Energy font_size medium invert_x_axis False invert_y_axis True
+marker_interval 5 font_size large
+error_bar_cap_thickness thick grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width thin
+grid_line_width very_thin
+plot_type bar_plot bar_face_color blue bar_edge_width medium bar_edge_color green bar_orientation horizontal bar_height 1 show_error_bar False x_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+bar_height 0.8 x_axis_position top data_series_name Data_Size grid_line_type horizontal grid_line_color magenta grid_line_style solid grid_line_width very_thin
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize True font_size medium
+color_map transparent_to_solid_blue grid_line_type both grid_line_color gray grid_line_style dashed grid_line_width very_thin
+number_of_levels 10 color_map transparent_green_to_solid_blue
+number_of_levels 15
+plot_type pie_chart explode large precision_digits 2 percentage_distance_from_center medium label_distance_from_center near radius medium font_size small
+explode None radius large section_edge_width medium section_edge_color black
+label_distance_from_center far section_edge_width thin
+percentage_distance_from_center far
+plot_type bar_plot bar_face_color red bar_edge_width thin bar_edge_color gray bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Data_Size font_size large invert_x_axis False invert_y_axis False grid_line_type both grid_line_color blue grid_line_style solid grid_line_width very_thin
+bar_height 0.6 x_axis_scale log y_axis_position left
+invert_x_axis True invert_y_axis True grid_line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+section_edge_width medium section_edge_color black
+section_edge_width thin
+precision_digits 1 radius large
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density loose
+line_width thin
+line_width thick
+line_width medium
+invert_x_axis True
+invert_y_axis True
+y_axis_position right
+x_axis_position top
+grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_style dashed
+grid_line_width thin
+line_color magenta
+arrow_size large
+font_size large
+grid_line_style dotted
+grid_line_style dashed_dots
+grid_line_color blue
+grid_line_color gray
+plot_type bar_plot bar_face_color green bar_edge_width medium bar_edge_color magenta bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name User_Ratings font_size large invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width thin
+invert_x_axis True
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map red_to_yellow color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis True grid_line_type vertical grid_line_color gray grid_line_style dashed grid_line_width very_thin
+color_bar_thickness thin font_size large grid_line_width thin
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_style dashed_dots line_color red
+line_width thin
+marker_type triangles marker_size small marker_face_color blue marker_edge_width medium marker_edge_color magenta marker_interval 1
+marker_size medium
+marker_size large
+data_series_name Power
+grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width very_thin
+x_axis_scale log invert_y_axis True
+marker_interval 2
+font_size large
+plot_type bar_plot bar_face_color red bar_edge_width thin bar_edge_color magenta bar_orientation vertical bar_width 0.8 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis True
+bar_edge_color blue y_axis_position right data_series_name Data font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize True font_size medium
+color_bar_orientation horizontal grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width very_thin
+color_bar_length long grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width thick line_color different color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color magenta grid_line_style solid grid_line_width very_thin
+color_bar_orientation horizontal color_bar_thickness thick
+density dense
+density medium
+color_bar_length long
+line_width medium color_bar_thickness medium invert_x_axis True invert_y_axis True
+line_width thin color_bar_thickness thin
+line_width different
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+show_error_bar None polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None data_series_name Position invert_x_axis None invert_y_axis None
+marker_type triangles marker_size small marker_face_color black marker_edge_width thin marker_edge_color red marker_interval 1
+line_color blue marker_interval 5
+marker_size large
+font_size large
+line_width thin
+plot_type 3D_surface surface_color blue font_size medium invert_x_axis True invert_y_axis False invert_z_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow color_bar_orientation vertical color_bar_length long color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color green grid_line_style dashed grid_line_width thin
+color_map transparent_yellow_to_solid_red x_axis_position top grid_line_type horizontal
+contour_plot_type lined line_style solid line_width medium grid_line_color gray grid_line_style dashed_dots
+number_of_levels 10 line_width thin color_bar_orientation horizontal
+number_of_levels 15
+x_axis_scale log y_axis_scale log
+line_width thick
+number_of_levels 6 invert_y_axis True grid_line_width very_thin
+number_of_levels 10 color_map red_to_yellow
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width thin line_color different color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color red grid_line_style solid grid_line_width very_thin
+density loose invert_x_axis True invert_y_axis True
+arrow_size large color_bar_length long font_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color red grid_line_style dashed grid_line_width very_thin
+color_map transparent_to_solid_red x_axis_scale log
+grid_line_color orange
+color_map red_to_yellow grid_line_color magenta
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_type down_triangles marker_size small marker_face_color magenta marker_edge_width thin marker_edge_color black marker_interval 1 x_axis_position top y_axis_position right data_series_name Power
+line_style None line_width None line_color None x_axis_scale log grid_line_type horizontal grid_line_color green grid_line_style solid grid_line_width very_thin
+grid_line_type vertical
+marker_size large
+marker_interval 2
+invert_y_axis True
+font_size small invert_y_axis False
+invert_y_axis True
+marker_size medium
+marker_edge_width medium invert_x_axis True
+grid_line_color gray
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_type triangles marker_size small marker_face_color black marker_interval 1
+x_axis_position top
+y_axis_scale log
+x_axis_scale log
+invert_y_axis True
+line_style None line_width None line_color None
+font_size large
+marker_size large marker_face_color blue
+invert_x_axis True
+invert_y_axis False
+marker_size medium
+data_series_name Data_Size
+plot_type line_chart marker_type triangles marker_size small marker_face_color gray marker_interval 1 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color orange grid_line_style solid grid_line_width very_thin
+x_axis_scale log data_series_name Power
+invert_y_axis True
+marker_interval 2 error_bar_cap_size medium font_size large grid_line_width thin
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color blue polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis False grid_line_type horizontal grid_line_color blue grid_line_style dashed grid_line_width very_thin
+x_axis_position top y_axis_position right data_series_name Score grid_line_width thin
+line_style dotted line_color magenta
+marker_type triangles marker_size medium marker_face_color blue marker_interval 5 font_size large grid_line_style dashed_dots
+line_width thick error_bar_cap_thickness thick
+marker_type down_triangles marker_size large marker_edge_width medium marker_edge_color black
+marker_edge_width thin
+plot_type contour_plot contour_plot_type lined number_of_levels 15 line_style solid line_width medium color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_scale log y_axis_scale log x_axis_position top
+color_map transparent_to_solid_red
+font_size large invert_y_axis True
+color_bar_length long grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+plot_type line_chart line_style solid line_width medium line_color black marker_type triangles marker_size small marker_face_color magenta marker_interval 1 polarize True font_size small grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width very_thin
+line_style dashed line_color green marker_size medium marker_edge_width thin marker_edge_color black marker_interval 2 grid_line_type vertical
+line_width thin data_series_name Position grid_line_color gray
+plot_type pie_chart explode small precision_digits 1 percentage_distance_from_center far label_distance_from_center far radius medium font_size medium
+radius large font_size small
+plot_type line_chart line_style dotted line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True
+show_error_bar None polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None invert_x_axis None invert_y_axis None
+grid_line_type horizontal grid_line_color gray grid_line_style solid grid_line_width very_thin
+data_series_name Trajectory font_size small
+line_width thin
+line_style dashed
+plot_type bar_plot bar_face_color red bar_edge_width medium bar_edge_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style dotted grid_line_width thin
+data_series_name Power font_size large
+plot_type bar_plot bar_face_color orange bar_orientation horizontal bar_height 1 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Data font_size medium invert_x_axis False invert_y_axis True
+font_size large
+plot_type matrix_display color_map red_to_yellow color_bar_orientation horizontal color_bar_length short color_bar_thickness thin x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_bar_length long color_bar_thickness medium invert_x_axis True invert_y_axis True
+font_size small invert_y_axis False
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_map purple_to_white_to_green
+contour_plot_type lined line_style dashed line_width thick
+color_bar_thickness thick invert_y_axis True grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+font_size large grid_line_color orange grid_line_style dashed_dots
+color_bar_length long invert_x_axis True grid_line_type vertical grid_line_width thin
+plot_type bar_plot bar_face_color green bar_orientation vertical bar_width 0.8 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray y_axis_scale log x_axis_position top y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+error_bar_cap_thickness thick
+error_bar_cap_size medium error_bar_cap_thickness thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color green grid_line_style dashed grid_line_width thin
+density loose line_color green invert_x_axis True
+line_color different color_map purple_to_white_to_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin font_size large
+arrow_size large color_bar_length long color_bar_thickness medium
+color_bar_thickness thick
+plot_type pie_chart explode small precision_digits 1 percentage_distance_from_center far label_distance_from_center near radius medium section_edge_width thin section_edge_color black font_size medium
+label_distance_from_center far
+plot_type line_chart line_style dashed_dots line_width medium line_color gray marker_type diamonds marker_size large marker_face_color blue marker_interval 5 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_scale log
+line_width thin data_series_name Data_Size invert_y_axis True
+invert_x_axis True grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+invert_y_axis False
+font_size small
+marker_edge_width thin marker_edge_color green grid_line_color gray grid_line_width thin
+plot_type pie_chart explode small precision_digits 3 percentage_distance_from_center medium label_distance_from_center near radius large section_edge_width thin section_edge_color gray font_size medium
+label_distance_from_center far section_edge_width medium font_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+color_bar_thickness medium grid_line_type vertical
+contour_plot_type lined line_style solid line_width medium
+line_style dashed
+line_width thin
+line_width medium color_bar_thickness thick
+color_bar_length long color_bar_thickness thin
+color_map transparent_green_to_solid_blue
+x_axis_scale log y_axis_scale log
+x_axis_scale linear y_axis_scale linear
+line_style dotted
+color_bar_thickness medium
+number_of_levels 10 color_bar_length short font_size large invert_y_axis True
+font_size small
+plot_type line_chart line_style dashed line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+line_color red marker_type circles marker_size small marker_face_color magenta marker_edge_width thin marker_edge_color gray marker_interval 1
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black x_axis_scale log grid_line_color gray grid_line_style dashed
+y_axis_scale log x_axis_position top y_axis_position right
+marker_interval 2 x_axis_scale linear
+marker_interval 5 data_series_name Data_Size
+error_bar_cap_thickness thick font_size large
+error_bar_cap_size medium error_bar_cap_thickness thin
+error_bar_cap_size large
+marker_size medium
+marker_edge_width medium
+marker_edge_width thin
+marker_edge_color green
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+explode small
+section_edge_width medium section_edge_color black
+section_edge_width thin
+precision_digits 2
+label_distance_from_center far
+label_distance_from_center near
+[unchanged]
+radius small
+font_size small
+font_size large
+percentage_distance_from_center near
+label_distance_from_center far
+precision_digits 1
+precision_digits 3
+plot_type bar_plot bar_face_color orange bar_edge_width thin bar_edge_color gray bar_orientation horizontal bar_height 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray x_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis True
+bar_edge_width medium bar_height 0.8 show_error_bar False error_bar_cap_size None error_bar_cap_thickness None error_bar_color None data_series_name Energy
+bar_height 0.6 x_axis_position top font_size large invert_y_axis False
+plot_type line_chart line_style dotted line_width thin line_color orange show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_scale log x_axis_position top invert_x_axis True
+marker_type triangles marker_size small marker_face_color red marker_edge_width medium marker_edge_color blue marker_interval 1 y_axis_scale log y_axis_position right
+marker_size medium marker_interval 5
+data_series_name Power grid_line_type both grid_line_color red grid_line_style solid grid_line_width very_thin
+font_size small grid_line_width thin
+marker_face_color magenta
+marker_type down_triangles
+plot_type bar_plot bar_face_color blue bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position top y_axis_position left data_series_name Power font_size medium invert_x_axis True invert_y_axis False grid_line_type horizontal grid_line_color green grid_line_style dashed grid_line_width very_thin
+font_size large
+plot_type bar_plot bar_face_color gray bar_edge_width thin bar_edge_color blue bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position top y_axis_position right data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color magenta grid_line_style dashed grid_line_width very_thin
+bar_edge_width None bar_edge_color None bar_orientation vertical bar_width 1 bar_height None show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thin error_bar_color blue x_axis_scale None y_axis_scale linear
+bar_width 0.6 error_bar_cap_size small invert_x_axis True grid_line_width thin
+bar_width 1 font_size large
+grid_line_style dashed_dots
+grid_line_width very_thin
+plot_type pie_chart precision_digits 3 percentage_distance_from_center far label_distance_from_center near radius medium font_size medium
+percentage_distance_from_center medium label_distance_from_center far
+radius large
+plot_type streamline_plot density loose arrow_size large arrow_style curve line_width medium line_color magenta x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color gray grid_line_style dotted grid_line_width very_thin
+font_size large invert_x_axis True invert_y_axis True
+line_width thick grid_line_width thin
+line_width different
+plot_type pie_chart precision_digits 0 percentage_distance_from_center near label_distance_from_center far radius medium font_size medium
+radius small
+precision_digits 2
+font_size small
+label_distance_from_center near
+plot_type line_chart marker_type circles marker_size small marker_face_color blue marker_edge_width medium marker_edge_color red marker_interval 5 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thick error_bar_color red polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Data font_size medium invert_x_axis False invert_y_axis False
+plot_type streamline_plot density medium arrow_size large arrow_style curve line_width medium line_color different color_map red_to_yellow_to_green color_bar_orientation vertical color_bar_length long color_bar_thickness medium x_axis_position top y_axis_position right font_size small invert_x_axis False invert_y_axis False
+line_width different
+font_size medium
+plot_type bar_plot bar_face_color black bar_edge_width medium bar_edge_color green bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_width 0.8 x_axis_position top y_axis_position right invert_x_axis True invert_y_axis True
+data_series_name Data_Size font_size large
+plot_type bar_plot bar_face_color orange bar_edge_width thin bar_edge_color magenta bar_orientation horizontal bar_height 1 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_height 0.6 grid_line_type both grid_line_color gray grid_line_style dotted grid_line_width very_thin
+x_axis_position top data_series_name Stock_Price grid_line_width thin
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis True invert_y_axis False
+number_of_levels 15 color_map transparent_to_solid_blue color_bar_length long color_bar_thickness thick
+font_size large
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width thin line_color green x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_color different color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin grid_line_type vertical grid_line_color red grid_line_style dashed grid_line_width very_thin
+arrow_size large color_bar_orientation horizontal color_bar_length long color_bar_thickness medium
+color_bar_length short color_bar_thickness thick font_size small
+plot_type pie_chart precision_digits 1 percentage_distance_from_center far label_distance_from_center near radius medium section_edge_width medium section_edge_color black font_size medium
+explode small percentage_distance_from_center near radius small font_size small
+section_edge_width thin
+percentage_distance_from_center medium
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+section_edge_width thin section_edge_color black
+section_edge_width medium section_edge_color gray
+precision_digits 2
+label_distance_from_center far
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow_to_green color_bar_orientation vertical color_bar_length short color_bar_thickness medium polarize True font_size medium
+color_bar_length long font_size large
+color_bar_thickness thin
+color_bar_length short
+grid_line_type horizontal grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+plot_type bar_plot bar_face_color green bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color orange grid_line_style dashed grid_line_width very_thin
+bar_edge_width thin bar_edge_color orange data_series_name Data invert_x_axis True grid_line_color red grid_line_style dashed_dots grid_line_width thin
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis True invert_y_axis False
+line_style dotted line_width thin line_color green
+marker_type triangles marker_size medium marker_face_color magenta marker_edge_width medium marker_edge_color gray marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red
+marker_size large marker_edge_width thin error_bar_cap_size large
+marker_interval 5 error_bar_cap_size medium font_size small
+data_series_name Power font_size large
+plot_type scatter_plot marker_type diamonds marker_size small marker_face_color blue polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+data_series_name Branches font_size small grid_line_width thin
+plot_type pie_chart precision_digits 2 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+explode small
+plot_type streamline_plot density loose arrow_size large arrow_style curve line_width thick line_color different color_map red_to_yellow color_bar_orientation horizontal color_bar_length long color_bar_thickness medium x_axis_position top y_axis_position left font_size large invert_x_axis False invert_y_axis True grid_line_type both grid_line_color red grid_line_style dashed_dots grid_line_width thin
+color_map transparent_to_solid_red font_size medium
+color_map transparent_yellow_to_solid_red
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top y_axis_position right
+arrow_size large line_width thin invert_x_axis True
+color_bar_thickness medium
+color_bar_length long
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color orange grid_line_style dotted grid_line_width very_thin
+density dense line_width thin font_size large grid_line_style dashed_dots
+invert_x_axis True invert_y_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_yellow_to_solid_red color_bar_length short font_size large
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map transparent_blue_to_dark_purple color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_style dashed_dots color_bar_length long grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+line_width thick invert_x_axis True grid_line_color gray
+color_map light_cyan_to_magenta
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size large
+radius small
+precision_digits 2
+section_edge_width thin section_edge_color gray
+section_edge_width medium
+percentage_distance_from_center far
+percentage_distance_from_center near
+plot_type matrix_display color_map transparent_yellow_to_solid_red color_bar_orientation horizontal color_bar_length long color_bar_thickness thick x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+y_axis_position right font_size large
+invert_x_axis True invert_y_axis True
+plot_type bar_plot bar_face_color red bar_orientation horizontal bar_height 0.6 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black x_axis_scale log x_axis_position top y_axis_position left data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+error_bar_cap_size medium grid_line_width thin
+error_bar_cap_size large
+plot_type pie_chart explode large precision_digits 3 percentage_distance_from_center medium label_distance_from_center near radius large section_edge_width thin section_edge_color black font_size medium
+percentage_distance_from_center far radius medium section_edge_width medium
+font_size small
+plot_type bar_plot bar_face_color magenta bar_orientation vertical bar_width 0.6 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top y_axis_position right invert_x_axis True
+data_series_name Data grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_style dotted
+font_size small
+grid_line_color blue
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color blue grid_line_style solid grid_line_width very_thin
+bar_width 0.8 invert_x_axis True
+bar_width 0.6
+data_series_name Power
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray
+plot_type line_chart marker_type triangles marker_size small marker_face_color orange marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+error_bar_cap_size medium x_axis_scale log y_axis_position right
+error_bar_cap_size large y_axis_position left
+marker_size medium invert_x_axis True
+marker_interval 2 error_bar_cap_thickness thick font_size small grid_line_width thin
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map red_to_yellow color_bar_thickness thick
+x_axis_scale log y_axis_scale log
+contour_plot_type lined line_style solid line_width medium
+line_width thick
+font_size large grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+color_bar_length long
+grid_line_width thin
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left data_series_name User_Ratings font_size medium invert_x_axis True invert_y_axis False
+grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+font_size small
+font_size large
+plot_type contour_plot contour_plot_type lined number_of_levels 15 line_style solid line_width medium color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+number_of_levels 10 line_style dashed color_map purple_to_white_to_green color_bar_length long
+color_bar_length short font_size small invert_y_axis True
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large font_size small
+label_distance_from_center far
+plot_type bar_plot bar_face_color red bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+invert_x_axis True grid_line_type both grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+x_axis_scale log grid_line_type horizontal
+data_series_name Data_Size
+plot_type pie_chart precision_digits 3 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode small section_edge_width thin section_edge_color black
+explode large label_distance_from_center far section_edge_width medium
+percentage_distance_from_center near font_size large
+font_size small
+plot_type 3D_surface surface_color magenta font_size large invert_x_axis False invert_y_axis False invert_z_axis False
+invert_x_axis True
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+section_edge_width thin section_edge_color black
+font_size large
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color green grid_line_style solid grid_line_width thin
+color_bar_length long color_bar_thickness medium
+color_bar_orientation horizontal color_bar_thickness thick grid_line_style dashed
+density loose y_axis_position right invert_y_axis True
+line_width thin font_size small
+density medium arrow_style solid
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color magenta bar_edge_width thin bar_edge_color blue data_series_name Score
+bar_width 0.8 x_axis_position top y_axis_position right
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+bar_height 0.8 grid_line_type horizontal grid_line_color green grid_line_style dotted grid_line_width very_thin
+font_size small
+plot_type streamline_plot density medium arrow_size large arrow_style curve line_width medium line_color magenta x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+density loose arrow_size small font_size large grid_line_type vertical
+x_axis_position top invert_y_axis True
+plot_type bar_plot bar_face_color magenta bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color blue grid_line_style dashed grid_line_width very_thin
+invert_y_axis True
+x_axis_scale log x_axis_position top invert_x_axis True grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color different color_map purple_to_white_to_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_length long color_bar_thickness medium invert_x_axis True
+color_bar_orientation horizontal
+grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width very_thin
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_to_solid_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_length long grid_line_type horizontal grid_line_color gray grid_line_style dotted grid_line_width very_thin
+line_width thin color_bar_thickness thick y_axis_position right invert_x_axis True
+number_of_levels 10 color_bar_thickness medium font_size small
+plot_type bar_plot bar_face_color red bar_edge_width medium bar_edge_color green bar_orientation horizontal bar_height 1 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_scale log
+invert_x_axis True
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black
+error_bar_cap_thickness thick
+x_axis_position top
+grid_line_type vertical grid_line_color orange grid_line_style dashed grid_line_width thin
+data_series_name Power
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+y_axis_scale log grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+bar_edge_width thin bar_edge_color gray invert_y_axis True
+y_axis_position right grid_line_width thin
+show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thin error_bar_color blue
+y_axis_position left invert_x_axis True
+font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_orientation horizontal polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None invert_x_axis None invert_y_axis None
+color_bar_length long grid_line_type both grid_line_color black grid_line_style dotted grid_line_width very_thin
+grid_line_width thin
+number_of_levels 10
+plot_type line_chart line_style dotted line_width thick line_color black marker_type triangles marker_size small marker_face_color black marker_edge_width thin marker_edge_color green marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top data_series_name Score
+marker_size medium marker_interval 2 invert_y_axis True
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color magenta grid_line_style solid grid_line_width very_thin
+number_of_levels 15 color_bar_length long color_bar_thickness thick
+color_bar_thickness thin font_size small grid_line_width thin
+color_bar_thickness medium
+plot_type pie_chart explode large precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+section_edge_width thin section_edge_color black font_size small
+radius large
+radius small
+label_distance_from_center far radius large
+plot_type histogram number_of_bins 6 bar_relative_width 1 bar_face_color black x_axis_position top y_axis_position right data_series_name Data font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color blue grid_line_style dashed grid_line_width very_thin
+number_of_bins 10 bar_relative_width 0.8 bar_face_color blue font_size large
+bar_relative_width 0.6
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_to_solid_green color_bar_orientation horizontal color_bar_length long color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color red grid_line_style dotted grid_line_width thin
+line_width thick color_bar_thickness medium invert_x_axis True grid_line_type horizontal
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density loose
+arrow_size large
+line_width different y_axis_position right
+line_color different color_map red_to_yellow color_bar_orientation vertical color_bar_length short color_bar_thickness thin
+color_bar_thickness thick invert_y_axis True
+grid_line_type both grid_line_color magenta grid_line_style solid grid_line_width very_thin
+x_axis_position top y_axis_position left
+font_size small
+plot_type line_chart line_style dotted line_width medium line_color green marker_type diamonds marker_size small marker_face_color blue marker_edge_width thin marker_edge_color orange marker_interval 1 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color blue polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color green grid_line_style dotted grid_line_width very_thin
+x_axis_scale log y_axis_scale log invert_y_axis True grid_line_color blue
+marker_interval 2 grid_line_width thin
+line_width thin marker_interval 1 error_bar_color magenta
+marker_interval 5
+data_series_name Data_Size
+plot_type pie_chart explode small precision_digits 3 percentage_distance_from_center far label_distance_from_center near radius medium section_edge_width medium section_edge_color black font_size medium
+radius large
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color red grid_line_style solid grid_line_width very_thin
+color_bar_length long x_axis_scale log y_axis_scale log grid_line_style dashed
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color blue bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+bar_edge_width thin bar_edge_color gray
+show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thick error_bar_color black
+error_bar_cap_thickness thin error_bar_color gray
+x_axis_scale log
+data_series_name Score invert_x_axis True
+error_bar_cap_size small
+x_axis_scale linear
+font_size large
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode small
+label_distance_from_center far
+explode large
+section_edge_width thin section_edge_color black
+precision_digits 3
+section_edge_width medium
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+section_edge_width medium section_edge_color gray
+percentage_distance_from_center near
+font_size large
+font_size medium
+radius large
+font_size large
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color gray grid_line_style dotted grid_line_width very_thin
+density loose color_bar_length long invert_x_axis True
+color_map red_to_yellow
+grid_line_width thin
+plot_type streamline_plot density dense arrow_size large arrow_style solid line_width different line_color different color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+font_size small invert_x_axis True invert_y_axis True
+invert_x_axis False
+plot_type streamline_plot density dense arrow_size large arrow_style solid line_width medium line_color different color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thick x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width thin
+line_width thick
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_blue_to_dark_purple color_bar_orientation horizontal color_bar_length short color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis False grid_line_type both grid_line_color gray grid_line_style dotted grid_line_width very_thin
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map red_to_yellow_to_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize True font_size medium grid_line_type vertical grid_line_color magenta grid_line_style solid grid_line_width very_thin
+color_bar_length long color_bar_thickness thick
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color green y_axis_position right
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black
+error_bar_cap_thickness thick error_bar_color red invert_x_axis True
+data_series_name Data grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+invert_y_axis True grid_line_type vertical grid_line_style dashed
+error_bar_color green
+error_bar_color red
+font_size large grid_line_color green
+invert_y_axis False
+invert_y_axis True
+invert_x_axis False
+plot_type line_chart line_style solid line_width medium line_color magenta show_error_bar False polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+y_axis_scale log font_size large invert_x_axis True grid_line_width thin
+font_size medium invert_x_axis False invert_y_axis True
+font_size small
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position bottom y_axis_position left data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color gray grid_line_style dotted grid_line_width very_thin
+font_size large invert_x_axis True
+bar_face_color red bar_edge_width thin bar_edge_color green bar_width 0.8
+bar_edge_width medium show_error_bar True error_bar_cap_size small error_bar_cap_thickness thick error_bar_color blue
+error_bar_cap_size medium
+error_bar_cap_size large
+grid_line_type vertical
+plot_type scatter_plot marker_type circles marker_size small marker_face_color gray marker_edge_width medium marker_edge_color orange polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis True invert_y_axis False
+data_series_name Branches grid_line_type vertical grid_line_color green grid_line_style dashed grid_line_width very_thin
+plot_type pie_chart explode small precision_digits 2 percentage_distance_from_center medium label_distance_from_center far radius medium font_size small
+percentage_distance_from_center near
+plot_type bar_plot bar_face_color blue bar_orientation vertical bar_width 0.6 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color green y_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis True grid_line_type vertical grid_line_color green grid_line_style dashed_dots grid_line_width very_thin
+font_size large grid_line_width thin
+error_bar_cap_size medium
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color magenta bar_orientation horizontal bar_height 0.6 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top y_axis_position right font_size small
+x_axis_scale log data_series_name data-size
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thick error_bar_color gray grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+data_series_name Data_Size
+plot_type pie_chart precision_digits 3 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+radius large section_edge_width thin section_edge_color black font_size large
+plot_type bar_plot bar_face_color orange bar_orientation vertical bar_width 1 show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thick error_bar_color blue y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width thin bar_edge_color blue x_axis_position top y_axis_position right data_series_name Stock_Price
+font_size large invert_x_axis True
+grid_line_type horizontal grid_line_color blue grid_line_style dotted grid_line_width thin
+error_bar_cap_size large
+plot_type line_chart line_style dashed_dots line_width thick line_color red show_error_bar False polarize False x_axis_scale log y_axis_scale log x_axis_position top y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+grid_line_type horizontal grid_line_color blue grid_line_style dotted grid_line_width very_thin
+font_size small grid_line_width thin
+plot_type streamline_plot density loose arrow_size large arrow_style solid line_width different line_color different color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thick x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center near label_distance_from_center near radius medium font_size medium
+precision_digits 3 font_size large
+radius small section_edge_width thin section_edge_color black
+label_distance_from_center far radius medium
+radius small
+plot_type streamline_plot density dense arrow_size small arrow_style solid line_width medium line_color different color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length long color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top y_axis_position right grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+line_width thick invert_y_axis True
+line_width medium color_map transparent_to_solid_green
+line_width different
+color_map transparent_to_solid_blue
+arrow_size large color_bar_thickness medium
+line_width thin color_map transparent_green_to_solid_blue font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+number_of_levels 10 y_axis_position right font_size small invert_x_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map purple_to_white_to_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+contour_plot_type lined line_style solid line_width medium grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+number_of_levels 15 line_width thick font_size small grid_line_width thin
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width thin section_edge_color black font_size medium
+explode large
+precision_digits 2 label_distance_from_center far section_edge_color gray font_size large
+precision_digits 3
+precision_digits 1
+plot_type line_chart marker_type diamonds marker_size small marker_face_color magenta marker_edge_width thin marker_edge_color red marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color blue grid_line_style dashed grid_line_width very_thin
+y_axis_scale log
+x_axis_scale log
+marker_size large grid_line_width thin
+error_bar_cap_thickness thick
+error_bar_cap_size medium y_axis_position right data_series_name Data_Size font_size large
+error_bar_cap_size large
+plot_type line_chart line_style dotted line_width thick line_color red show_error_bar False polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis True invert_y_axis False
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray font_size large
+error_bar_cap_size medium
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color green x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis True grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+density loose arrow_size large line_width thin font_size large
+plot_type pie_chart explode large precision_digits 1 percentage_distance_from_center far label_distance_from_center far radius small section_edge_width thin section_edge_color black font_size medium
+label_distance_from_center near font_size large
+plot_type line_chart line_style dashed_dots line_width medium line_color gray marker_type circles marker_size small marker_face_color gray marker_edge_width thin marker_edge_color green marker_interval 1 polarize True font_size medium
+marker_size medium marker_interval 2 grid_line_type both grid_line_color magenta grid_line_style dotted grid_line_width very_thin
+marker_interval 5 grid_line_type vertical
+marker_edge_width medium grid_line_style dashed
+data_series_name Position
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color black font_size medium
+radius large
+precision_digits 2 percentage_distance_from_center far
+font_size small
+plot_type streamline_plot density dense arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+arrow_style solid line_color different color_map red_to_yellow color_bar_orientation vertical color_bar_length short color_bar_thickness thin grid_line_width thin
+color_bar_orientation horizontal color_bar_length long color_bar_thickness medium
+color_bar_thickness thin y_axis_position right invert_x_axis True
+line_width thin
+plot_type bar_plot bar_face_color magenta bar_edge_width thin bar_edge_color orange bar_orientation horizontal bar_height 1 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color gray x_axis_scale log x_axis_position top y_axis_position right data_series_name Power font_size medium invert_x_axis True invert_y_axis False grid_line_type horizontal grid_line_color magenta grid_line_style dashed grid_line_width very_thin
+bar_height 0.8 error_bar_cap_size medium font_size large
+plot_type bar_plot bar_face_color blue bar_edge_width medium bar_edge_color green bar_orientation vertical bar_width 0.6 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thick error_bar_color gray y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+y_axis_scale log x_axis_position top y_axis_position right data_series_name Data_Size grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+error_bar_cap_size medium font_size small invert_x_axis True invert_y_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow_to_green color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position left font_size small invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+color_bar_length short
+plot_type bar_plot bar_face_color black bar_orientation horizontal bar_height 1 show_error_bar False x_axis_scale linear x_axis_position top y_axis_position left data_series_name User_ratings font_size medium invert_x_axis False invert_y_axis False
+grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+data_series_name User_Ratings grid_line_color gray
+font_size large grid_line_width thin
+plot_type contour_plot contour_plot_type filled number_of_levels 15 color_map transparent_to_solid_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale log x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color red grid_line_style solid grid_line_width very_thin
+contour_plot_type lined line_style dotted line_width medium font_size small grid_line_style dotted
+line_width thick color_bar_thickness medium invert_y_axis True
+plot_type bar_plot bar_face_color green bar_edge_width thin bar_edge_color magenta bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None data_series_name Data_Size
+bar_height 0.8 x_axis_scale log
+invert_x_axis True grid_line_type both grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+bar_height 0.6 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black
+font_size large grid_line_width thin
+bar_height 0.8 error_bar_color gray
+bar_edge_width medium
+bar_height 0.6
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+precision_digits 2
+percentage_distance_from_center far
+label_distance_from_center far radius large
+explode small
+precision_digits 3
+section_edge_width medium section_edge_color black
+section_edge_width None section_edge_color None
+label_distance_from_center near
+label_distance_from_center far
+radius medium
+font_size large
+font_size small
+[unchanged]
+radius small
+radius large
+plot_type 3D_surface surface_color different color_map light_cyan_to_magenta color_bar_orientation horizontal color_bar_length long color_bar_thickness medium font_size medium invert_x_axis False invert_y_axis False invert_z_axis False
+font_size large invert_x_axis True
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width different line_color different color_map red_to_yellow_to_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density loose color_bar_orientation horizontal
+font_size large invert_x_axis True invert_y_axis True
+color_bar_length long
+plot_type bar_plot bar_face_color red bar_orientation horizontal bar_height 0.6 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width thin bar_edge_color gray invert_x_axis True invert_y_axis True
+show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color orange x_axis_position top
+error_bar_cap_thickness thick data_series_name Score
+error_bar_cap_thickness thin
+error_bar_cap_size small error_bar_cap_thickness thick
+error_bar_cap_size medium
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color red bar_orientation vertical bar_width 0.8 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta y_axis_scale log x_axis_position bottom y_axis_position right data_series_name Data_Size font_size medium invert_x_axis True invert_y_axis True grid_line_type both grid_line_color orange grid_line_style dotted grid_line_width very_thin
+error_bar_cap_size medium error_bar_cap_thickness thick font_size large grid_line_width thin
+plot_type streamline_plot density dense arrow_size small arrow_style curve line_width medium line_color different color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis True
+color_bar_thickness thick font_size small grid_line_type vertical grid_line_color orange grid_line_style dashed grid_line_width very_thin
+line_width different color_bar_thickness thin
+color_bar_thickness medium
+plot_type line_chart line_style dashed_dots line_width thick line_color black show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+error_bar_color blue data_series_name User_Ratings font_size small
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width different line_color blue x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top invert_x_axis True
+line_color different color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin font_size large
+line_width medium color_bar_orientation horizontal
+color_bar_thickness medium grid_line_type vertical grid_line_color green grid_line_style dotted grid_line_width very_thin
+density dense color_bar_thickness thick
+density loose color_bar_length long color_bar_thickness medium
+arrow_size large grid_line_style dashed_dots
+color_map transparent_green_to_solid_blue
+plot_type contour_plot contour_plot_type lined number_of_levels 10 line_style dotted line_width medium color_map transparent_green_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis True
+color_bar_thickness thick font_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map purple_to_white_to_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+[unchanged]
+color_bar_thickness thick x_axis_position top
+color_bar_length long font_size large invert_x_axis True
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+font_size small
+precision_digits 3
+radius large
+plot_type streamline_plot density dense arrow_size large arrow_style curve line_width thick line_color blue x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis False
+line_width medium grid_line_type vertical grid_line_color blue grid_line_style dashed grid_line_width very_thin
+arrow_size small line_width thick font_size large grid_line_color black
+plot_type contour_plot contour_plot_type lined number_of_levels 10 line_style dashed line_width medium color_map transparent_blue_to_dark_purple color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis True invert_y_axis False
+color_bar_thickness thick x_axis_scale log font_size small
+line_width thin grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+color_bar_length long invert_y_axis True grid_line_width thin
+plot_type bar_plot bar_face_color red bar_edge_width medium bar_edge_color magenta bar_orientation vertical bar_width 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black y_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Data font_size medium invert_x_axis True invert_y_axis False
+bar_width 0.8 x_axis_position top invert_y_axis True
+error_bar_cap_size medium error_bar_color blue
+error_bar_cap_size large
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color black font_size medium
+radius small font_size large
+percentage_distance_from_center near
+plot_type line_chart line_style dashed_dots line_width medium line_color magenta marker_type diamonds marker_size small marker_face_color blue marker_edge_width medium marker_edge_color magenta marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color orange grid_line_style solid grid_line_width very_thin
+x_axis_position top y_axis_position right
+error_bar_cap_size medium font_size small grid_line_style dashed
+invert_y_axis True grid_line_width thin
+marker_interval 5
+marker_interval 2
+plot_type bar_plot bar_face_color gray bar_orientation horizontal bar_height 0.8 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black x_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width thin bar_edge_color blue y_axis_position left data_series_name Power grid_line_type both grid_line_color black grid_line_style dashed grid_line_width very_thin
+x_axis_position top invert_x_axis True
+invert_y_axis True
+error_bar_cap_size medium font_size large
+error_bar_cap_size large
+plot_type line_chart line_style dashed line_width medium line_color green show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color red polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_width thin error_bar_cap_thickness thick x_axis_scale log y_axis_scale log data_series_name Power invert_y_axis True
+error_bar_cap_thickness thin font_size large
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_style dashed line_color green
+x_axis_position top
+y_axis_position right
+x_axis_scale log y_axis_scale log
+marker_type circles marker_size small marker_face_color black marker_edge_width medium marker_edge_color magenta marker_interval 1 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thick error_bar_color black
+marker_interval 2 error_bar_cap_thickness thin error_bar_color red
+marker_interval 5
+line_width thin data_series_name Data_Size font_size large
+plot_type pie_chart explode small precision_digits 2 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width thin section_edge_color gray font_size medium
+radius small section_edge_width medium font_size small
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_green_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map purple_to_white_to_green
+density loose
+color_bar_length long
+color_bar_length short
+invert_x_axis True invert_y_axis True
+x_axis_position top y_axis_position right invert_x_axis False invert_y_axis False
+invert_y_axis True
+font_size small grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+invert_x_axis True
+invert_x_axis False invert_y_axis False
+arrow_size large
+line_width thick
+line_width different
+line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+radius small
+section_edge_width thin section_edge_color black
+explode small
+font_size small
+font_size large
+radius medium
+label_distance_from_center far
+percentage_distance_from_center far
+plot_type line_chart line_style dashed line_width thick line_color black marker_type diamonds marker_size small marker_face_color magenta marker_interval 2 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color magenta polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color gray grid_line_style solid grid_line_width very_thin
+marker_interval 5 invert_y_axis True
+error_bar_cap_size medium font_size small grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map red_to_white_to_blue color_bar_orientation horizontal color_bar_length long color_bar_thickness thick x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True
+arrow_style solid line_width thin color_bar_thickness thin
+color_bar_thickness medium
+grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+font_size small grid_line_color gray
+plot_type contour_plot contour_plot_type filled number_of_levels 15 color_map transparent_to_solid_red color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize True font_size medium grid_line_type horizontal grid_line_color magenta grid_line_style solid grid_line_width very_thin
+color_map transparent_to_solid_green color_bar_thickness medium
+color_bar_thickness thick
+color_bar_length long
+plot_type scatter_plot marker_type triangles marker_size small marker_face_color different marker_edge_width thin marker_edge_color red color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length long color_bar_thickness thick polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+marker_size medium color_map transparent_blue_to_dark_purple color_bar_orientation horizontal grid_line_type horizontal
+marker_size large invert_y_axis True
+plot_type streamline_plot density medium arrow_size large arrow_style solid line_width thick line_color green x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis True
+density dense
+line_width different
+line_width thick line_color different color_map transparent_to_solid_green color_bar_orientation vertical color_bar_length short color_bar_thickness thin
+color_bar_orientation horizontal
+font_size small
+invert_x_axis True
+invert_y_axis False
+plot_type line_chart line_style solid line_width medium line_color red show_error_bar False polarize False x_axis_scale log y_axis_scale log x_axis_position top y_axis_position left data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color green grid_line_style dashed grid_line_width thin
+line_width thin invert_x_axis True
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center far label_distance_from_center far radius medium font_size medium
+section_edge_width thin section_edge_color gray
+font_size large
+label_distance_from_center near
+percentage_distance_from_center near
+label_distance_from_center far
+percentage_distance_from_center medium
+radius large
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color red x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width very_thin
+arrow_size large font_size small grid_line_width thin
+line_width different
+plot_type pie_chart explode large precision_digits 0 percentage_distance_from_center far label_distance_from_center far radius medium section_edge_width thin section_edge_color gray font_size medium
+precision_digits 3 radius small
+[unchanged]
+precision_digits 2
+plot_type streamline_plot density loose arrow_size large arrow_style curve line_width medium line_color different color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_orientation horizontal color_bar_length long color_bar_thickness medium
+invert_y_axis True
+color_bar_thickness thin
+font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 15 color_map transparent_to_solid_red color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color green grid_line_style solid grid_line_width very_thin
+x_axis_scale log invert_x_axis True
+font_size small grid_line_width thin
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width thin color_map transparent_blue_to_dark_purple color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True grid_line_type horizontal grid_line_color red grid_line_style solid grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color different color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density dense line_width thin line_color red color_map None color_bar_orientation None color_bar_length None color_bar_thickness None invert_x_axis True invert_y_axis True
+font_size large
+plot_type bar_plot bar_face_color orange bar_edge_width thin bar_edge_color red bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None y_axis_position right grid_line_type vertical grid_line_color red grid_line_style solid grid_line_width very_thin
+bar_height 0.8 data_series_name Data font_size large grid_line_width thin
+grid_line_color magenta
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+precision_digits 1 percentage_distance_from_center near
+percentage_distance_from_center far
+radius large
+font_size large
+plot_type line_chart line_style dotted line_width medium line_color red show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+y_axis_scale log y_axis_position right
+invert_y_axis True
+marker_type triangles marker_size small marker_face_color black marker_edge_width thin marker_edge_color orange marker_interval 5 invert_x_axis True invert_y_axis False
+line_width thin marker_size medium
+error_bar_cap_size medium data_series_name Power
+error_bar_cap_size large grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color different color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+line_width thin invert_x_axis True invert_y_axis True
+invert_y_axis False grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width thin
+color_bar_thickness medium grid_line_type horizontal
+color_bar_thickness thin
+font_size small invert_y_axis True grid_line_width very_thin
+font_size large
+plot_type line_chart line_style dashed line_width thin line_color red marker_type down_triangles marker_size small marker_face_color black marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+marker_interval 5
+data_series_name Data_Size
+invert_x_axis True
+marker_size medium
+line_width medium
+font_size small
+error_bar_color orange
+invert_y_axis True
+invert_y_axis False
+marker_interval 2
+x_axis_scale log y_axis_scale log
+font_size medium
+marker_size large marker_interval 5 invert_y_axis True
+invert_x_axis False
+marker_interval 1
+plot_type bar_plot bar_face_color blue bar_orientation vertical bar_width 0.8 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Score font_size medium invert_x_axis True invert_y_axis True grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+bar_edge_width thin bar_edge_color gray
+grid_line_color gray
+font_size small
+plot_type line_chart marker_type circles marker_size small marker_face_color blue marker_edge_width medium marker_edge_color green marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right data_series_name User_Ratings font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color gray grid_line_style solid grid_line_width thin
+marker_type diamonds marker_interval 5 font_size small invert_x_axis True
+marker_interval 2
+plot_type 3D_surface surface_color green font_size large invert_x_axis False invert_y_axis False invert_z_axis False
+plot_type line_chart line_style dashed_dots line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position left data_series_name Score font_size medium invert_x_axis False invert_y_axis False
+invert_x_axis True
+font_size large
+line_color green
+invert_y_axis True
+grid_line_type horizontal grid_line_color gray grid_line_style dashed grid_line_width very_thin
+grid_line_type vertical
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density loose arrow_style solid line_color different color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length short color_bar_thickness thin y_axis_position right invert_x_axis True grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+arrow_size large color_bar_length long color_bar_thickness thick invert_y_axis True
+grid_line_color gray
+plot_type streamline_plot density loose arrow_size small arrow_style solid line_width medium line_color green x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color orange grid_line_style dashed grid_line_width very_thin
+arrow_size large line_width thick grid_line_style dashed_dots grid_line_width thin
+line_width thin
+line_width different
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+explode large
+explode small
+font_size large
+precision_digits 3
+percentage_distance_from_center far
+section_edge_width medium section_edge_color gray
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color magenta bar_edge_width thin bar_edge_color red
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+data_series_name Energy grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black grid_line_color gray
+error_bar_cap_size medium error_bar_color gray
+invert_y_axis True
+y_axis_position right
+font_size large
+grid_line_type both
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow color_bar_orientation horizontal color_bar_length short color_bar_thickness medium polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position right font_size small invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style dashed_dots grid_line_width thin
+number_of_levels 10
+plot_type bar_plot bar_face_color green bar_orientation vertical bar_width 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta y_axis_scale log x_axis_position top y_axis_position right data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False
+bar_width 0.8 grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+error_bar_cap_thickness thick grid_line_width thin
+error_bar_cap_size medium font_size large invert_y_axis True
+error_bar_cap_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_to_solid_green
+color_bar_thickness thick
+number_of_levels 10
+y_axis_position right
+number_of_levels 6
+invert_x_axis True
+invert_y_axis True
+invert_y_axis False
+polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None invert_x_axis None invert_y_axis None
+polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+y_axis_scale log invert_y_axis True
+color_bar_length long
+plot_type line_chart marker_type triangles marker_size small marker_face_color black marker_edge_width medium marker_edge_color orange marker_interval 1 show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thick error_bar_color red polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size small invert_x_axis True invert_y_axis False grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+marker_interval 2 error_bar_cap_size large data_series_name User_Ratings invert_y_axis True
+y_axis_position right invert_y_axis False
+plot_type pie_chart precision_digits 2 percentage_distance_from_center near label_distance_from_center far radius medium section_edge_width thin section_edge_color black font_size medium
+section_edge_width medium
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position bottom y_axis_position left data_series_name Data_Size font_size small invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width thin
+bar_orientation horizontal bar_width None bar_height 0.6 x_axis_scale linear y_axis_scale None
+x_axis_scale log
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center near label_distance_from_center far radius medium section_edge_width thin section_edge_color gray font_size medium
+radius large
+font_size large
+radius medium
+radius large
+label_distance_from_center near
+section_edge_width medium
+plot_type contour_plot contour_plot_type filled number_of_levels 15 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis False grid_line_type horizontal grid_line_color gray grid_line_style solid grid_line_width thin
+color_map transparent_yellow_to_solid_red
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+grid_line_type horizontal grid_line_color red grid_line_style dotted grid_line_width very_thin
+color_map light_cyan_to_magenta
+color_bar_orientation horizontal y_axis_position left
+number_of_levels 10
+number_of_levels 15
+color_map transparent_blue_to_dark_purple
+color_bar_length long
+font_size small
+plot_type bar_plot bar_face_color green bar_edge_width medium bar_edge_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width None bar_edge_color None bar_orientation horizontal bar_width None bar_height 0.6 x_axis_scale linear y_axis_scale None
+data_series_name Stock_Price
+font_size large
+invert_y_axis True grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_color green grid_line_style dashed
+plot_type line_chart line_style solid line_width medium line_color black marker_type circles marker_size small marker_face_color red marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+line_style None line_width None line_color None x_axis_scale log
+marker_size large
+marker_size medium font_size large
+marker_interval 2
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+y_axis_scale linear
+color_bar_length long color_bar_thickness medium font_size small invert_x_axis True
+plot_type streamline_plot density medium arrow_size large arrow_style solid line_width medium line_color red x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+y_axis_position right font_size small invert_x_axis True invert_y_axis True
+plot_type line_chart line_style solid line_width medium line_color green marker_type diamonds marker_size small marker_face_color orange marker_edge_width medium marker_edge_color black marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+marker_size medium font_size large invert_x_axis True invert_y_axis True
+data_series_name Power
+invert_x_axis False
+marker_edge_color green
+invert_y_axis False
+line_width thin marker_size large
+x_axis_scale log invert_x_axis True grid_line_color gray grid_line_width thin
+plot_type bar_plot bar_face_color orange bar_orientation vertical bar_width 0.8 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+bar_height 0.8 invert_x_axis True invert_y_axis True
+grid_line_type horizontal grid_line_color red grid_line_style dashed grid_line_width very_thin
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color green
+data_series_name Score invert_y_axis False
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale log x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_green_to_solid_blue color_bar_thickness medium font_size large invert_x_axis True
+number_of_levels 10 color_bar_length long font_size small
+number_of_levels 15
+grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+plot_type pie_chart precision_digits 3 percentage_distance_from_center medium label_distance_from_center far radius medium section_edge_width thin section_edge_color gray font_size medium
+font_size small
+plot_type pie_chart explode large precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color gray font_size medium
+precision_digits 2 label_distance_from_center far radius small
+precision_digits 1
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_yellow_to_solid_red color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale log x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+number_of_levels 15 grid_line_type both grid_line_color orange grid_line_style dashed grid_line_width very_thin
+number_of_levels 10
+line_width thin color_bar_thickness thin
+grid_line_width thin
+number_of_levels 15 color_map transparent_to_solid_red font_size small
+color_map red_to_yellow
+plot_type pie_chart precision_digits 1 percentage_distance_from_center near label_distance_from_center far radius small font_size medium
+radius medium font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_map red_to_yellow_to_green invert_y_axis True
+x_axis_scale log y_axis_scale log
+number_of_levels 10 color_bar_length short color_bar_thickness thick invert_y_axis False
+number_of_levels 15 color_bar_thickness medium
+plot_type line_chart line_style dashed_dots line_width medium line_color green marker_type triangles marker_size small marker_face_color black marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+line_width thick marker_interval 5
+marker_size medium y_axis_scale log y_axis_position right
+marker_size large grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+font_size small
+marker_face_color gray marker_edge_width medium marker_edge_color black
+line_width medium
+line_width thick marker_size medium
+grid_line_width thin
+grid_line_color gray grid_line_width very_thin
+grid_line_width thin
+plot_type bar_plot bar_face_color gray bar_edge_width medium bar_edge_color red bar_orientation vertical bar_width 0.6 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red y_axis_scale linear x_axis_position top y_axis_position left data_series_name Data_Size font_size medium invert_x_axis True invert_y_axis False grid_line_type both grid_line_color magenta grid_line_style dashed grid_line_width thin
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+x_axis_scale log
+bar_height 0.6 error_bar_cap_size medium error_bar_cap_thickness thick font_size large
+plot_type line_chart show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_type circles marker_size small marker_face_color blue marker_edge_width thin marker_edge_color green marker_interval 1 x_axis_position top data_series_name LOG
+marker_size medium data_series_name Data_Size invert_x_axis True invert_y_axis True
+grid_line_type vertical grid_line_color red grid_line_style solid grid_line_width very_thin
+marker_edge_width medium x_axis_scale log
+marker_interval 2
+marker_size large marker_interval 5
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_green_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_bar_orientation horizontal color_bar_length long invert_x_axis True
+density dense color_bar_thickness medium
+grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width very_thin
+grid_line_color gray grid_line_width thin
+plot_type histogram number_of_bins 10 bar_relative_width 1 bar_face_color green bar_edge_width thin bar_edge_color orange x_axis_position bottom y_axis_position left data_series_name Energy font_size medium invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color gray grid_line_style solid grid_line_width very_thin
+bar_relative_width 0.6 font_size large
+plot_type line_chart line_style dashed_dots line_width thick line_color red marker_type triangles marker_size medium marker_face_color blue marker_edge_width thin marker_edge_color green marker_interval 1 show_error_bar True error_bar_cap_size medium error_bar_cap_thickness thick error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Data_Size font_size large invert_x_axis False invert_y_axis False
+x_axis_scale log y_axis_scale log y_axis_position right
+marker_size small
+error_bar_cap_thickness thin
+marker_face_color magenta marker_edge_color gray error_bar_cap_thickness thick
+error_bar_cap_size small
+invert_x_axis True invert_y_axis True
+marker_edge_width None marker_edge_color None
+plot_type 3D_surface surface_color black font_size medium invert_x_axis False invert_y_axis False invert_z_axis False
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map transparent_to_solid_red color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_bar_thickness thick y_axis_scale log invert_x_axis True invert_y_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 15 color_map transparent_blue_to_dark_purple color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+contour_plot_type lined line_style solid line_width medium y_axis_scale log
+color_bar_length long font_size large
+grid_line_style dashed_dots
+plot_type line_chart line_style dotted line_width thick line_color blue marker_type down_triangles marker_size small marker_face_color black marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_size large marker_face_color orange marker_edge_width thin marker_edge_color gray
+marker_size small x_axis_position top data_series_name Energy
+grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_color orange grid_line_style dashed
+grid_line_width thin
+font_size large
+x_axis_position bottom y_axis_position right
+y_axis_position left
+y_axis_scale log
+y_axis_scale linear
+invert_x_axis True
+marker_edge_color green
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black
+marker_interval 2
+marker_interval 5
+marker_size large
+marker_size medium
+error_bar_cap_thickness thick
+error_bar_cap_size medium
+marker_edge_color gray
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis True invert_y_axis False
+number_of_levels 10 color_bar_orientation horizontal color_bar_thickness thick grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width very_thin
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_face_color gray bar_width 0.6
+y_axis_scale log
+data_series_name Power
+font_size large
+x_axis_position top
+grid_line_type both grid_line_color magenta grid_line_style solid grid_line_width very_thin
+grid_line_style dotted
+plot_type pie_chart explode large precision_digits 0 percentage_distance_from_center near label_distance_from_center far radius small section_edge_width medium section_edge_color gray font_size medium
+font_size small
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width thin section_edge_color black font_size medium
+explode small percentage_distance_from_center far label_distance_from_center far font_size large
+explode large percentage_distance_from_center medium
+percentage_distance_from_center near
+plot_type line_chart line_style solid line_width medium line_color gray marker_type diamonds marker_size medium marker_face_color black marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False
+marker_interval 5 y_axis_scale log invert_x_axis True invert_y_axis True
+marker_interval 2
+plot_type line_chart marker_type circles marker_size small marker_face_color green marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color orange polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+error_bar_color green x_axis_scale log y_axis_scale log grid_line_type horizontal grid_line_color magenta grid_line_style dashed grid_line_width very_thin
+marker_size medium marker_interval 2 data_series_name Data_Size invert_x_axis True
+marker_size large marker_interval 5
+font_size large
+plot_type streamline_plot density medium arrow_size large arrow_style solid line_width different line_color different color_map red_to_yellow_to_green color_bar_orientation vertical color_bar_length long color_bar_thickness thick x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+density dense grid_line_type horizontal grid_line_color orange grid_line_style solid grid_line_width very_thin
+density medium font_size small
+plot_type line_chart line_style dashed line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_type circles marker_size small marker_face_color black marker_interval 1
+marker_face_color green
+data_series_name User_Ratings
+x_axis_position top y_axis_position right
+line_color red marker_interval 2
+invert_x_axis True grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+font_size large
+plot_type pie_chart explode small precision_digits 3 percentage_distance_from_center far label_distance_from_center far radius small section_edge_width thin section_edge_color black font_size large
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style solid line_width medium color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_style dashed y_axis_scale log x_axis_position top
+number_of_levels 10 invert_x_axis True
+line_width thick invert_y_axis True grid_line_type vertical grid_line_color green grid_line_style dotted grid_line_width very_thin
+color_bar_length long font_size small
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width different line_color blue x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color blue grid_line_style dashed grid_line_width very_thin
+line_color magenta y_axis_position right
+plot_type bar_plot bar_face_color green bar_edge_width thin bar_edge_color blue bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale log y_axis_scale None
+x_axis_position top invert_x_axis True
+invert_y_axis True grid_line_type vertical grid_line_color gray grid_line_style dashed grid_line_width very_thin
+grid_line_width thin
+font_size small
+plot_type histogram number_of_bins 8 bar_relative_width 0.8 bar_face_color gray x_axis_position top y_axis_position left data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style solid grid_line_width thin
+invert_y_axis True
+font_size large
+grid_line_color gray grid_line_width very_thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center near label_distance_from_center near radius large font_size small
+section_edge_width thin section_edge_color gray font_size medium
+plot_type pie_chart explode large precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius small font_size medium
+precision_digits 1 section_edge_width thin section_edge_color gray
+font_size small
+percentage_distance_from_center near
+plot_type line_chart line_style solid line_width thick line_color black marker_type circles marker_size small marker_face_color blue marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color orange grid_line_style dashed grid_line_width very_thin
+line_style dashed line_color orange show_error_bar None error_bar_cap_size None error_bar_cap_thickness None error_bar_color None polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None data_series_name Data_Size invert_x_axis None invert_y_axis None
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thick error_bar_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position right invert_x_axis False invert_y_axis False
+invert_x_axis True
+y_axis_scale log
+marker_interval 2 error_bar_cap_thickness thin
+marker_size medium
+marker_size large
+grid_line_width thin
+marker_edge_width medium marker_edge_color black error_bar_cap_thickness thick font_size large
+marker_edge_color green
+marker_edge_width thin
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length long color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color green grid_line_style dashed_dots grid_line_width very_thin
+number_of_levels 10 color_bar_thickness thick y_axis_position left font_size large
+number_of_levels 15 font_size medium
+font_size small
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_width thin x_axis_scale log y_axis_scale log
+line_color blue
+grid_line_type both grid_line_color gray grid_line_style dotted grid_line_width very_thin
+grid_line_width thin
+data_series_name Power
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position top y_axis_position right font_size small invert_x_axis False invert_y_axis False
+[unchanged]
+arrow_style solid line_color magenta
+density loose line_color different color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length short color_bar_thickness thin
+color_bar_length long color_bar_thickness medium
+color_bar_orientation horizontal color_bar_thickness thick
+color_bar_thickness medium invert_x_axis True invert_y_axis True
+line_width thick
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+percentage_distance_from_center far
+radius large
+radius small
+plot_type line_chart line_style dashed_dots line_width medium line_color black marker_type circles marker_size small marker_face_color orange marker_edge_width thin marker_edge_color gray marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_scale log x_axis_position top y_axis_position right
+show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color blue
+error_bar_cap_size medium
+line_width thick
+data_series_name Data_Size
+error_bar_cap_thickness thick invert_y_axis True
+marker_size medium
+font_size small
+invert_y_axis False
+invert_x_axis True
+invert_y_axis True
+font_size medium
+marker_edge_width medium
+font_size small
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color orange x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style dashed grid_line_width very_thin
+density loose line_width thick font_size large grid_line_color gray
+plot_type line_chart line_style solid line_width medium line_color black marker_type down_triangles marker_size small marker_face_color orange marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_style None line_width None line_color None show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color blue
+x_axis_scale log x_axis_position top
+invert_y_axis True
+error_bar_cap_size medium error_bar_cap_thickness thick invert_x_axis True
+data_series_name Power
+error_bar_cap_size small error_bar_cap_thickness thin
+marker_interval 5 error_bar_cap_size medium font_size large
+error_bar_cap_size large
+plot_type histogram number_of_bins 6 bar_relative_width 0.8 bar_face_color gray bar_edge_width thin bar_edge_color red x_axis_position top y_axis_position left font_size small invert_x_axis False invert_y_axis True
+number_of_bins 8 grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width very_thin
+number_of_bins 6 bar_relative_width 0.6
+font_size medium
+bar_edge_width medium
+data_series_name Data invert_x_axis True grid_line_color gray grid_line_width thin
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color black bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width None bar_edge_color None x_axis_scale log
+invert_y_axis True
+bar_height 1
+bar_edge_width thin bar_edge_color black
+font_size large
+grid_line_type both grid_line_color black grid_line_style dashed_dots grid_line_width thin
+data_series_name Data_Size
+font_size small
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+percentage_distance_from_center near
+[unchanged]
+label_distance_from_center far radius small
+font_size small
+explode small
+plot_type bar_plot bar_face_color red bar_orientation vertical bar_width 0.8 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None
+x_axis_scale log x_axis_position top y_axis_position right invert_y_axis True
+bar_height 0.6 data_series_name Power font_size small
+bar_height 0.8
+plot_type line_chart line_style dashed line_width medium line_color green show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_width thin
+marker_type down_triangles marker_size small marker_face_color gray marker_interval 1 data_series_name Power
+grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+x_axis_scale log invert_x_axis True
+y_axis_scale log y_axis_position right invert_y_axis True
+marker_interval 2 font_size large
+invert_y_axis False
+grid_line_width thin
+plot_type pie_chart explode small precision_digits 1 percentage_distance_from_center far label_distance_from_center near radius medium font_size medium
+radius large section_edge_width thin section_edge_color gray font_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map magenta_to_yellow color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+polarize True x_axis_scale None y_axis_scale None x_axis_position None y_axis_position None invert_x_axis None invert_y_axis None
+font_size large
+color_bar_length long
+grid_line_type both grid_line_color orange grid_line_style dotted grid_line_width very_thin
+plot_type 3D_surface surface_color green font_size medium invert_x_axis False invert_y_axis False invert_z_axis False
+font_size large invert_x_axis True invert_y_axis True invert_z_axis True
+font_size medium
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color black grid_line_style dotted grid_line_width very_thin
+color_bar_thickness medium font_size small invert_x_axis True grid_line_color gray
+arrow_size large grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color orange x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+arrow_size large x_axis_position top y_axis_position right
+grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+grid_line_type vertical
+arrow_style curve
+density dense
+density loose
+density medium
+invert_x_axis True
+line_width thick
+arrow_size small
+font_size small
+invert_y_axis True
+invert_x_axis False
+grid_line_color gray
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_yellow color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+font_size large
+invert_x_axis True invert_y_axis True
+x_axis_scale log y_axis_scale log
+invert_x_axis False invert_y_axis False
+color_map transparent_to_solid_red y_axis_scale linear invert_x_axis True invert_y_axis True
+number_of_levels 15
+x_axis_scale linear
+number_of_levels 6 font_size small
+y_axis_scale log
+number_of_levels 10
+invert_y_axis False
+color_map transparent_yellow_to_solid_red
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center far radius medium font_size small
+font_size medium
+plot_type matrix_display color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+font_size small invert_x_axis True invert_y_axis True
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+contour_plot_type lined line_style solid line_width medium
+line_style dotted color_map transparent_to_solid_green
+invert_y_axis True
+invert_x_axis True invert_y_axis False
+grid_line_type vertical grid_line_color orange grid_line_style solid grid_line_width very_thin
+color_bar_thickness thick
+color_bar_length long grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width different line_color different color_map light_cyan_to_magenta color_bar_orientation horizontal color_bar_length long color_bar_thickness medium x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_blue_to_dark_purple color_bar_thickness thin
+density dense x_axis_position top font_size small invert_x_axis True invert_y_axis True grid_line_type vertical grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+arrow_size large
+plot_type pie_chart explode large precision_digits 3 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+label_distance_from_center far radius small section_edge_width thin section_edge_color gray
+percentage_distance_from_center far section_edge_width medium
+font_size small
+plot_type scatter_plot marker_type diamonds marker_size small marker_face_color different color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize True font_size medium
+color_bar_orientation horizontal color_bar_length long grid_line_type horizontal grid_line_color magenta grid_line_style dotted grid_line_width very_thin
+marker_size large color_bar_length short grid_line_width thin
+font_size small
+plot_type pie_chart explode small precision_digits 1 percentage_distance_from_center medium label_distance_from_center near radius large section_edge_width medium section_edge_color black font_size medium
+font_size large
+plot_type bar_plot bar_face_color red bar_edge_width thin bar_edge_color magenta bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name User_Ratings font_size medium invert_x_axis False invert_y_axis False
+bar_width 0.8 invert_x_axis True grid_line_type both grid_line_color black grid_line_style dashed grid_line_width thin
+bar_width 0.6 invert_y_axis True grid_line_type horizontal
+font_size small grid_line_width very_thin
+plot_type streamline_plot density loose arrow_size small arrow_style solid line_width medium line_color red x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+font_size large
+font_size small
+plot_type contour_plot contour_plot_type filled number_of_levels 6 color_map red_to_white_to_blue color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color orange grid_line_style dashed grid_line_width very_thin
+number_of_levels 15 x_axis_position top y_axis_position right font_size small grid_line_width thin
+color_bar_length short invert_x_axis True
+plot_type streamline_plot density medium arrow_size large arrow_style curve line_width medium line_color different color_map red_to_yellow_to_green color_bar_orientation horizontal color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+arrow_style solid invert_x_axis True
+color_map transparent_yellow_to_solid_red
+color_map red_to_white_to_blue
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale linear y_axis_scale None grid_line_type vertical grid_line_color black grid_line_style dotted grid_line_width very_thin
+invert_y_axis True grid_line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+precision_digits 3
+percentage_distance_from_center far font_size large
+radius large
+radius medium
+label_distance_from_center far
+plot_type pie_chart explode large precision_digits 2 percentage_distance_from_center near label_distance_from_center near radius medium section_edge_width thin section_edge_color gray font_size medium
+font_size large
+plot_type line_chart line_style dotted line_width thick line_color black marker_type diamonds marker_size small marker_face_color gray marker_interval 5 show_error_bar False polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis True
+marker_size large data_series_name Power
+plot_type streamline_plot density loose arrow_size small arrow_style solid line_width medium line_color gray x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis False grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width thin
+font_size large
+grid_line_color blue
+plot_type pie_chart precision_digits 2 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color gray font_size medium
+plot_type pie_chart explode large precision_digits 1 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+percentage_distance_from_center near section_edge_width thin section_edge_color black
+plot_type matrix_display color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thick x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+color_bar_length long font_size large
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 0.8 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position right data_series_name Power font_size medium invert_x_axis False invert_y_axis False grid_line_type vertical grid_line_color orange grid_line_style solid grid_line_width very_thin
+invert_x_axis True invert_y_axis True
+y_axis_scale log
+grid_line_width thin
+font_size small
+plot_type streamline_plot density loose arrow_size small arrow_style curve line_width medium line_color different color_map transparent_to_solid_red color_bar_orientation vertical color_bar_length long color_bar_thickness thick x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_map transparent_to_solid_blue color_bar_orientation horizontal grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+color_bar_thickness medium font_size large invert_x_axis True invert_y_axis True
+line_width thick font_size small grid_line_color gray grid_line_width thin
+line_width different font_size large
+font_size medium
+plot_type streamline_plot density loose arrow_size small arrow_style curve line_width thick line_color black x_axis_position top y_axis_position left font_size large invert_x_axis True invert_y_axis False grid_line_type both grid_line_color magenta grid_line_style solid grid_line_width very_thin
+grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color orange x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True
+density loose arrow_size large font_size large
+line_width thick
+plot_type pie_chart explode small precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color gray font_size medium
+precision_digits 1 label_distance_from_center far
+percentage_distance_from_center far
+radius large
+plot_type bar_plot bar_face_color gray bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_edge_width thin bar_edge_color red data_series_name Power invert_y_axis True
+y_axis_scale log invert_x_axis True
+bar_width 0.8
+plot_type scatter_plot marker_type circles marker_size small marker_face_color black polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+marker_edge_width thin marker_edge_color green y_axis_scale log x_axis_position top
+grid_line_type vertical grid_line_color gray grid_line_style dotted grid_line_width very_thin
+marker_face_color different color_map transparent_blue_to_dark_purple color_bar_orientation vertical color_bar_length short color_bar_thickness thin
+color_bar_orientation horizontal color_bar_length long
+color_bar_thickness thick y_axis_scale linear
+font_size small
+x_axis_scale log
+color_bar_thickness medium
+plot_type line_chart line_style solid line_width medium line_color red marker_type circles marker_size small marker_face_color orange marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color gray polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+data_series_name Data font_size large grid_line_type vertical grid_line_color black grid_line_style dashed_dots grid_line_width very_thin
+error_bar_cap_size medium
+error_bar_cap_thickness thick grid_line_width thin
+marker_interval 5
+plot_type matrix_display color_map transparent_to_solid_blue color_bar_orientation horizontal color_bar_length long color_bar_thickness thick x_axis_position bottom y_axis_position right font_size medium invert_x_axis True invert_y_axis False
+color_bar_length short font_size large
+invert_y_axis True
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_to_solid_red color_bar_orientation horizontal color_bar_length short color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_length long color_bar_thickness thick font_size large
+color_map red_to_yellow_to_green
+plot_type line_chart line_style dashed line_width medium line_color black show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color orange polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name User_Ratings font_size medium invert_x_axis False invert_y_axis False
+line_color red font_size large
+line_width thick error_bar_cap_size medium invert_x_axis True
+error_bar_cap_thickness thick
+plot_type bar_plot bar_face_color orange bar_orientation vertical bar_width 0.6 show_error_bar False y_axis_scale linear x_axis_position top y_axis_position right data_series_name Data_Size font_size medium invert_x_axis False invert_y_axis False
+bar_face_color black bar_width 0.8 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta y_axis_scale log grid_line_type vertical grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_color orange
+plot_type pie_chart explode small precision_digits 3 percentage_distance_from_center medium label_distance_from_center far radius medium font_size medium
+percentage_distance_from_center near radius large
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_yellow_to_solid_red color_bar_orientation horizontal color_bar_length short color_bar_thickness thin polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis True grid_line_type both grid_line_color gray grid_line_style dashed_dots grid_line_width very_thin
+number_of_levels 15 font_size small grid_line_width thin
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 0.8 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta y_axis_scale linear x_axis_position top y_axis_position right data_series_name User_Ratings font_size medium invert_x_axis False invert_y_axis False
+bar_width 0.6 error_bar_cap_thickness thick invert_x_axis True invert_y_axis True grid_line_type horizontal grid_line_color blue grid_line_style dashed grid_line_width very_thin
+font_size large
+plot_type contour_plot contour_plot_type filled number_of_levels 10 color_map transparent_yellow_to_solid_red color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+color_map red_to_yellow
+y_axis_scale log invert_x_axis True
+color_bar_length long invert_y_axis True grid_line_style dotted
+grid_line_width thin
+number_of_levels 15
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+grid_line_type vertical grid_line_color green grid_line_style dashed_dots grid_line_width very_thin
+bar_face_color gray data_series_name Power
+plot_type bar_plot bar_face_color black bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+bar_orientation horizontal bar_width None bar_height 1 x_axis_scale log y_axis_scale None
+bar_height 0.8 invert_x_axis True
+data_series_name Data_Size font_size large grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+plot_type bar_plot bar_face_color blue bar_edge_width thin bar_edge_color red bar_orientation vertical bar_width 1 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color magenta y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis True invert_y_axis True
+error_bar_cap_thickness thick y_axis_scale log data_series_name Data_Size
+bar_width 0.6
+error_bar_cap_size medium
+font_size large
+font_size medium
+font_size small
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_blue_to_dark_purple color_bar_orientation horizontal color_bar_length long color_bar_thickness medium polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False
+invert_y_axis True
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+percentage_distance_from_center near
+percentage_distance_from_center far
+radius small
+section_edge_width thin section_edge_color black
+font_size small
+section_edge_width medium
+precision_digits 1
+section_edge_width thin
+plot_type bar_plot bar_face_color magenta bar_edge_width medium bar_edge_color red bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position top y_axis_position left data_series_name Stock_Price font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_color gray grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color gray x_axis_position top y_axis_position right font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color red grid_line_style dotted grid_line_width very_thin
+arrow_size large line_width thick
+line_width medium font_size small grid_line_width thin
+line_width thin invert_x_axis True
+plot_type streamline_plot density medium arrow_size small arrow_style solid line_width medium line_color green x_axis_position bottom y_axis_position right font_size medium invert_x_axis False invert_y_axis True
+arrow_size large line_width thin invert_y_axis False
+density dense font_size large
+font_size small
+plot_type bar_plot bar_face_color blue bar_edge_width medium bar_edge_color green bar_orientation vertical bar_width 1 show_error_bar False y_axis_scale log x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color gray grid_line_style solid grid_line_width very_thin
+bar_width 0.8 x_axis_position top y_axis_position right
+grid_line_style dashed
+data_series_name Data_Size
+bar_orientation horizontal bar_width None bar_height 0.8 x_axis_scale log y_axis_scale None
+bar_height 1 font_size small invert_y_axis True grid_line_width thin
+plot_type line_chart line_style solid line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+x_axis_position top
+y_axis_position right
+y_axis_scale log
+y_axis_scale linear
+x_axis_scale log
+line_style dashed
+line_width thin line_color gray
+grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+grid_line_color gray
+grid_line_style dotted
+marker_type triangles marker_size small marker_face_color black marker_interval 1
+marker_type None marker_size None marker_face_color None marker_interval None show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color black
+error_bar_cap_size medium
+error_bar_color green
+error_bar_cap_size small error_bar_cap_thickness thick
+data_series_name Power
+font_size small
+plot_type pie_chart explode large precision_digits 2 percentage_distance_from_center medium label_distance_from_center near radius medium section_edge_width medium section_edge_color gray font_size medium
+radius small section_edge_width thin
+percentage_distance_from_center far label_distance_from_center far
+plot_type bar_plot bar_face_color gray bar_edge_width thin bar_edge_color magenta bar_orientation horizontal bar_height 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thick error_bar_color red x_axis_scale log x_axis_position top y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color green grid_line_style solid grid_line_width very_thin
+error_bar_cap_size large error_bar_cap_thickness thin grid_line_width thin
+plot_type pie_chart precision_digits 0 percentage_distance_from_center medium label_distance_from_center near radius medium font_size medium
+font_size large
+percentage_distance_from_center far
+radius small
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dotted line_width medium color_map transparent_to_solid_blue color_bar_orientation vertical color_bar_length short color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+color_bar_orientation horizontal color_bar_thickness medium x_axis_scale log invert_y_axis True
+number_of_levels 15 color_bar_thickness thick
+grid_line_type horizontal grid_line_color gray grid_line_style dotted grid_line_width very_thin
+grid_line_width thin
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color different color_map transparent_blue_to_dark_purple color_bar_orientation vertical color_bar_length short color_bar_thickness thick x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+density dense arrow_size large color_bar_length long x_axis_position top font_size large
+grid_line_type horizontal grid_line_color black grid_line_style dashed grid_line_width very_thin
+grid_line_color gray grid_line_style dashed_dots
+grid_line_width thin
+line_width thin grid_line_width very_thin
+line_width thick
+line_width different
+plot_type line_chart line_style dashed_dots line_width medium line_color black show_error_bar False polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_width thick line_color orange marker_type circles marker_size medium marker_face_color blue marker_edge_width medium marker_edge_color black marker_interval 1 show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color green data_series_name Power grid_line_type vertical grid_line_color black grid_line_style dashed_dots grid_line_width thin
+line_width thin marker_type triangles marker_interval 5 grid_line_color gray
+marker_size large error_bar_cap_thickness thick font_size small
+plot_type streamline_plot density dense arrow_size small arrow_style curve line_width thick line_color different color_map transparent_yellow_to_solid_red color_bar_orientation horizontal color_bar_length short color_bar_thickness thin x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color black grid_line_style solid grid_line_width very_thin
+line_width different color_bar_length long color_bar_thickness thick y_axis_position right invert_x_axis True
+line_width thick color_map red_to_yellow color_bar_thickness medium grid_line_width thin
+color_bar_thickness thin font_size small
+plot_type pie_chart precision_digits 0 percentage_distance_from_center near label_distance_from_center far radius medium font_size medium
+radius large
+plot_type streamline_plot density medium arrow_size small arrow_style curve line_width medium line_color black x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False
+line_width thin
+density loose
+line_width medium
+line_color gray invert_x_axis True invert_y_axis True
+font_size small
+plot_type contour_plot contour_plot_type lined number_of_levels 6 line_style dashed_dots line_width medium color_map transparent_blue_to_dark_purple color_bar_orientation vertical color_bar_length long color_bar_thickness thin polarize False x_axis_scale linear y_axis_scale log x_axis_position top y_axis_position left font_size medium invert_x_axis True invert_y_axis True
+number_of_levels 10 grid_line_type vertical grid_line_color black grid_line_style dashed grid_line_width thin
+color_bar_thickness medium font_size small
+plot_type streamline_plot density dense arrow_size small arrow_style curve line_width thin line_color different color_map light_cyan_to_magenta color_bar_orientation vertical color_bar_length long color_bar_thickness thick x_axis_position top y_axis_position right font_size medium invert_x_axis True invert_y_axis True grid_line_type both grid_line_color gray grid_line_style dashed grid_line_width thin
+color_map magenta_to_yellow color_bar_orientation horizontal font_size small
+plot_type line_chart line_style dashed_dots line_width medium line_color black show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color magenta polarize False x_axis_scale linear y_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type both grid_line_color green grid_line_style solid grid_line_width very_thin
+line_width thin y_axis_scale log x_axis_position top invert_y_axis True
+error_bar_cap_size medium data_series_name Power grid_line_style dashed
+font_size small grid_line_width thin
+plot_type line_chart line_style dashed line_width medium line_color blue show_error_bar True error_bar_cap_size small error_bar_cap_thickness thin error_bar_color red polarize False x_axis_scale log y_axis_scale linear x_axis_position top y_axis_position left font_size medium invert_x_axis True invert_y_axis False grid_line_type both grid_line_color magenta grid_line_style solid grid_line_width very_thin
+error_bar_cap_thickness thick data_series_name Power grid_line_width thin
+error_bar_cap_size medium font_size small
+error_bar_cap_size large
+plot_type line_chart line_style dashed_dots line_width thick line_color orange marker_type circles marker_size medium marker_face_color blue marker_edge_width thin marker_edge_color red marker_interval 2 show_error_bar True error_bar_cap_size large error_bar_cap_thickness thin error_bar_color red polarize False x_axis_scale log y_axis_scale linear x_axis_position bottom y_axis_position left data_series_name Power font_size medium invert_x_axis False invert_y_axis True
+marker_size large error_bar_cap_thickness thick font_size small
+plot_type bar_plot bar_face_color red bar_orientation horizontal bar_height 0.8 show_error_bar False x_axis_scale linear x_axis_position bottom y_axis_position left font_size medium invert_x_axis False invert_y_axis False grid_line_type horizontal grid_line_color gray grid_line_style dotted grid_line_width very_thin
+bar_orientation vertical bar_width 1 bar_height None x_axis_scale None y_axis_scale linear
+y_axis_scale log
+x_axis_position top invert_x_axis True
+data_series_name Data_Size grid_line_width thin
+font_size large
+plot_type line_chart line_style dashed line_width medium line_color black marker_type circles marker_size small marker_face_color black marker_edge_width thin marker_edge_color green marker_interval 1 show_error_bar False polarize False x_axis_scale linear y_axis_scale linear x_axis_position top y_axis_position right data_series_name Data font_size medium invert_x_axis False invert_y_axis False
+line_width thin marker_size medium marker_face_color magenta marker_edge_width medium
+line_color magenta marker_size large marker_face_color black
+plot_type pie_chart explode large precision_digits 3 percentage_distance_from_center far label_distance_from_center far radius medium section_edge_width medium section_edge_color gray font_size medium
