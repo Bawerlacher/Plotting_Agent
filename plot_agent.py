@@ -419,7 +419,12 @@ class plot_agent:
                 #     print("Failed to plot with current information")
 
 
-    def run_interact(self, ins=""):
+    def run_interact(self):
+        interact_manual(self.__run_interact, input="")
+
+
+    def __run_interact(self, instruction=""):
+        ins = instruction
         if ins=="undo":
             if self.undo() == -1:
                 print("undo failed.")
