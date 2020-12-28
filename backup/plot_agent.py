@@ -11,12 +11,7 @@ import numpy as np
 import random
 import csv
 import importlib
-import copy
-import time
 from nltk import word_tokenize
-
-from ipywidgets import interact_manual
-from IPython.display import clear_output
 
 from params_serialize import *
 from plotter import *
@@ -27,7 +22,7 @@ class plot_agent:
     ### Model Initialization Part ###
     #################################
     
-    def __init__(self, model_addr, src_addr, n_best=3):
+    def __init__(self, model_addr, src_addr):
         self.translator = self.__build_translator(model_addr, src_addr)
         self.data = None
         self.non_tpspec = "plot_type none contour_plot_type none number_of_levels none density none arrow_size none arrow_style none surface_color none line_style none line_width none line_color none marker_type none marker_size none marker_face_color none marker_edge_width none marker_edge_color none marker_interval none number_of_bins none bar_relative_width none bar_face_color none bar_edge_width none bar_edge_color none bar_orientation none bar_width none bar_height none color_map none explode none precision_digits none percentage_distance_from_center none label_distance_from_center none radius none section_edge_width none section_edge_color none show_error_bar none error_bar_cap_size none error_bar_cap_thickness none error_bar_color none color_bar_orientation none color_bar_length none color_bar_thickness none polarize none x_axis_scale none y_axis_scale none x_axis_position none y_axis_position none data_series_name none font_size none invert_x_axis none invert_y_axis none invert_z_axis none grid_line_type none grid_line_color none grid_line_style none grid_line_width none"
@@ -40,7 +35,6 @@ class plot_agent:
         self.p_type = None
         self.test_mode = False
         self.src_addr = src_addr
-        self.n_best = n_best
         random.seed(2)
     
     
@@ -69,19 +63,6 @@ class plot_agent:
         if self.test_mode:
             print("Delta TPS:", deserialize_single_1(out[1][0][0]))
         return deserialize_single_1(out[1][0][0])
-
-
-    def __natural_lang_translate_multiple(self, order):
-        text = order
-        if "||" not in text:
-            text = [serialize_single_1(self.plot_param).lower() + " || " + " ".join(word_tokenize(order.lower()))]
-        
-        temp = self.translator.n_best
-        self.translator.n_best = self.n_best
-        out = self.translator.translate(src=text, batch_size=1)
-        self.translator.n_best = temp
-
-        return [deserialize_single_1(out[1][0][i]) for i in range(len(out[1][0]))]
     
     
     #######################
@@ -90,7 +71,7 @@ class plot_agent:
     
     
     def generate_data(self):
-        plot_param, _ = self.__formalize_param(self.plot_param)
+        plot_param, _ = self.__formalize_param()
         if plot_param['plot_type'] == 'line chart':
             return Line_data_sampler(**plot_param)
         elif plot_param['plot_type'] == 'histogram':
@@ -114,22 +95,18 @@ class plot_agent:
     
     
     def plotting(self):
-        return self.__plotting(self.plot_param)
-
-
-    def __plotting(self, plot_params):
         if self.data is None:
             return -1
         
         # formalize the plot_param
-        _, plot_param = self.__formalize_param(plot_params)
+        _, plot_param = self.__formalize_param()
         
         kwargs_unnat = plotter_kwargs_unnaturalize(**plot_param)
         try:
             plt.show(plotter(**self.data, **kwargs_unnat))
         except Exception as e:
             print("Plot Failed: ", e)
-            c, f = self.__formalize_param(plot_params)
+            c, f = self.__formalize_param()
             print(c)
             print(f)
             raise e
@@ -138,8 +115,8 @@ class plot_agent:
     
     ## deserilize will turn every boolean, numeric and None-type value into string, which can undermine plotting.
     ## 'changed' only includes properties produced by the model, whereas 'full_form' includes all TPSpecs properties.
-    def __formalize_param(self, plot_param):
-        full_form = plot_param.copy()
+    def __formalize_param(self):
+        full_form = self.plot_param.copy()
         changed = OrderedDict()
         for k in full_form.keys():
             if full_form[k].lower() == 'none':
@@ -154,21 +131,12 @@ class plot_agent:
             elif full_form[k].lower() == 'false':
                 full_form[k] = False
             
-            if plot_param[k] != 'none':
+            if self.plot_param[k] != 'none':
                 changed[k] = full_form[k]
         
         return full_form, changed
                     
     
-    def plot_multiple(self, deltas):
-        for i, delta in enumerate(deltas):
-            _plot_param = copy.deepcopy(self.plot_param)
-            for k in delta.keys():
-                _plot_param[k] = delta[k]
-            print(i)
-            self.__plotting(_plot_param)
-            
-
     
     ########################
     #### Interface Part ####
@@ -298,8 +266,6 @@ class plot_agent:
     def interface(self):
         while True:
             ins = input(">: ")
-            tic = time.perf_counter()
-            clear_output(wait=True)
             if ins=="undo":
                 if self.undo() == -1:
                     print("undo failed.")
@@ -347,8 +313,7 @@ class plot_agent:
                     
             elif ins=="load csv":
                 self.data=self.csv_interface_simple()
-                continue
-                
+                    
             elif ins=="load dialog":
                 file_addr=input("What's the path of the dialog file? ")
                 try:
@@ -392,125 +357,14 @@ class plot_agent:
                 self.reset()
             
             else:
-                if self.test_mode:
-                    deltas = self.__natural_lang_translate_multiple(ins)
-                    self.plot_multiple(deltas)
-                    select = input("Which one is closest to your intention?")
-                    while not select.isnumeric() or int(select) >= self.n_best:
-                        select = input("Which one is closes to your intention?")
-                    related = deltas[int(select)]
-                    self.update(related)
-                else:
-                    self.update(self.__natural_lang_translate(ins))
+                self.update(self.__natural_lang_translate(ins))
             
-            if self.plotting() == -1:
-                self.data, label_setting = self.generate_data()
-                if self.data == None:
-                    print("Please specify the plot type.")
-                else:
-                    self.update(label_setting)
-                    self.plotting()
-
-            toc = time.perf_counter()
-            print("The execution of the instruction takes {} seconds".format(toc-tic))
+            if self.data is not None:
+                self.plotting()
                 # try:
                 #     self.plotting()
                 # except Exception:
                 #     print("Failed to plot with current information")
-
-
-    def run_interact(self, ins=""):
-        if ins=="undo":
-            if self.undo() == -1:
-                print("undo failed.")
-        
-        elif ins=="redo":
-            if self.redo() == -1:
-                print("redo failed.")
-                
-        elif ins=="plot":
-            if self.plotting() == -1:
-                self.data, label_setting = self.generate_data()
-                if self.data == None:
-                    print("Please specify the plot type.")
-                else:
-                    self.update(label_setting)
-                    self.plotting()
-        
-        elif ins=="generate data":
-            self.data, label_setting = self.generate_data()
-            if self.data == None:
-                print("Data generation failed. Please specify the plot type.")
-            else:
-                self.update(label_setting)
-        
-        elif ins=="print param":
-            self.__param_print()
-        
-        elif ins=="load data":
-            data_type=input("Enter the type of your data: ")
-            data_addr=input("Enter the address of your data file: ")
-            data_got = self.__data_reader(data_type, data_addr)
-            if data_got is None:
-                print("Data loading failed")
-            else:
-                self.data = data_got
-                
-        elif ins=="load csv":
-            self.data=self.csv_interface_simple()
-                
-        elif ins=="load dialog":
-            file_addr=input("What's the path of the dialog file? ")
-            try:
-                self.load_dialog(file_addr)
-            except FileNotFoundError:
-                print("Can't find your dialog file with the given path.")
-                
-        elif ins=="load source dialog":
-            self.p_type = input("Do you want to specify plot type? [bar plot/line chart/pie chart/streamline plot/contour plot/histogram/scatter plot/3d surface/matrix display/NO]").lower()
-            step = input("Do you want to see the update on the plot after each turn in the dialog? [y/N]")
-            if step == 'Y' or step == 'y':
-                self.step = True
-            else:
-                self.step = False
-            self.load_dialog_format(self.src_addr, self.p_type, self.step)
-
-        elif ins == "next":
-            if self.p_type is not None and self.step is not None:
-                self.load_dialog_format(self.src_addr, self.p_type, self.step)
-        
-        elif ins=="set labels":
-            while True:
-                lab = input("What label would you like to set? [x/y/title]: ")
-                if self.setlabel(lab) == -1:
-                    print("Invalid input.")
-                con = input("Continue setting labels? [y/N]: ")
-                if con != 'y' and con != 'Y':
-                    break
-        
-        elif ins=='exit':
-            return None
-        
-        elif ins=='test':
-            self.test_mode = not self.test_mode
-        
-        elif ins=='reset':
-            self.reset()
-        
-        else:
-            self.update(self.__natural_lang_translate(ins))
-        
-        if self.plotting() == -1:
-            self.data, label_setting = self.generate_data()
-            if self.data == None:
-                print("Please specify the plot type.")
-            else:
-                self.update(label_setting)
-                self.plotting()
-            # try:
-            #     self.plotting()
-            # except Exception:
-            #     print("Failed to plot with current information")
     
     
     #######################
