@@ -27,8 +27,12 @@ class plot_agent:
     ### Model Initialization Part ###
     #################################
     
-    def __init__(self, model_addr, src_addr, n_best=3):
-        self.translator = self.__build_translator(model_addr, src_addr)
+    def __init__(self, model_addr_1, model_addr_2, model_addr_3,
+                     src_addr, n_best=3):
+        
+        self.translator = self.__build_translator(model_addr_1, src_addr)
+        self.translator_2 = self.__build_translator(model_addr_2, src_addr)
+        self.translator_3 = self.__build_translator(model_addr_3, src_addr)
         self.data = None
         self.non_tpspec = "plot_type none contour_plot_type none number_of_levels none density none arrow_size none arrow_style none surface_color none line_style none line_width none line_color none marker_type none marker_size none marker_face_color none marker_edge_width none marker_edge_color none marker_interval none number_of_bins none bar_relative_width none bar_face_color none bar_edge_width none bar_edge_color none bar_orientation none bar_width none bar_height none color_map none explode none precision_digits none percentage_distance_from_center none label_distance_from_center none radius none section_edge_width none section_edge_color none show_error_bar none error_bar_cap_size none error_bar_cap_thickness none error_bar_color none color_bar_orientation none color_bar_length none color_bar_thickness none polarize none x_axis_scale none y_axis_scale none x_axis_position none y_axis_position none data_series_name none font_size none invert_x_axis none invert_y_axis none invert_z_axis none grid_line_type none grid_line_color none grid_line_style none grid_line_width none"
         self.plot_param = deserialize_single_1(self.non_tpspec)
@@ -39,6 +43,8 @@ class plot_agent:
         self.step = None
         self.p_type = None
         self.test_mode = False
+        self.feedback_mode = False
+        self.fix_color = None
         self.src_addr = src_addr
         self.n_best = n_best
         random.seed(2)
@@ -60,15 +66,31 @@ class plot_agent:
             self.plot_param[k] = delta_tpspec[k]
         return ori_param
     
-    
-    def __natural_lang_translate(self, order):
+
+    def __natural_lang_translate_help(self, translator, order):
         text = order
         if "||" not in text:
             text = [serialize_single_1(self.plot_param).lower() + " || " + " ".join(word_tokenize(order.lower()))]
-        out = self.translator.translate(src=text, batch_size=1)
+        out = translator.translate(src=text, batch_size=1)
         if self.test_mode:
             print("Delta TPS:", deserialize_single_1(out[1][0][0]))
         return deserialize_single_1(out[1][0][0])
+
+    
+    def __natural_lang_translate(self, order):
+        return self.__natural_lang_translate_help(self.translator, order)
+
+
+    def __natural_lang_translate_committee(self, order):
+        main = self.__natural_lang_translate_help(self.translator, order)
+        mem1 = self.__natural_lang_translate_help(self.translator_2, order)
+        mem2 = self.__natural_lang_translate_help(self.translator_3, order)
+        count = 1
+        if mem1 == main:
+            count += 1
+        if mem2 == main:
+            count += 1
+        return main, count
 
 
     def __natural_lang_translate_multiple(self, order):
@@ -90,7 +112,11 @@ class plot_agent:
     
     
     def generate_data(self):
-        plot_param, _ = self.__formalize_param(self.plot_param)
+        return self.__generate_data(self.plot_param)
+
+
+    def __generate_data(self, plot_param):
+        plot_param, _ = self.__formalize_param(plot_param)
         if plot_param['plot_type'] == 'line chart':
             return Line_data_sampler(**plot_param)
         elif plot_param['plot_type'] == 'histogram':
@@ -119,7 +145,12 @@ class plot_agent:
 
     def __plotting(self, plot_params):
         if self.data is None:
-            return -1
+            self.data, label_setting = self.__generate_data(plot_params)
+            if self.data == None:
+                print("Please specify the plot type.")
+                return
+            else:
+                self.update(label_setting)
         
         # formalize the plot_param
         _, plot_param = self.__formalize_param(plot_params)
@@ -298,6 +329,7 @@ class plot_agent:
     def interface(self):
         while True:
             ins = input(">: ")
+            agreements = None
             tic = time.perf_counter()
             clear_output(wait=True)
             if ins=="undo":
@@ -381,18 +413,33 @@ class plot_agent:
                     if con != 'y' and con != 'Y':
                         break
             
+            elif ins=="set fix color":
+                self.fix_color = input("Enter your favorite color: ")
+
             elif ins=='exit':
                 break
             
             elif ins=='test':
                 self.test_mode = not self.test_mode
                 continue
+
+            elif ins=='feedback':
+                self.feedback_mode = not self.feedback_mode
+                continue
             
             elif ins=='reset':
                 self.reset()
+                continue
+
+            elif ins=='':
+                continue
             
             else:
-                if self.test_mode:
+
+                if self.fix_color is not None and "fix color" in ins:
+                    ins = ins.replace("fix color", self.fix_color)
+                
+                if self.feedback_mode:
                     deltas = self.__natural_lang_translate_multiple(ins)
                     self.plot_multiple(deltas)
                     select = input("Which one is closest to your intention?")
@@ -401,16 +448,16 @@ class plot_agent:
                     related = deltas[int(select)]
                     self.update(related)
                 else:
-                    self.update(self.__natural_lang_translate(ins))
+                    if self.test_mode:
+                        delta, agreements = self.__natural_lang_translate_committee(ins)
+                        self.update(delta)
+                    else:
+                        self.update(self.__natural_lang_translate(ins))
             
-            if self.plotting() == -1:
-                self.data, label_setting = self.generate_data()
-                if self.data == None:
-                    print("Please specify the plot type.")
-                else:
-                    self.update(label_setting)
-                    self.plotting()
+            self.plotting()
 
+            if agreements is not None:
+                print("{} of 3 models agree on this result.".format(agreements))
             toc = time.perf_counter()
             print("The execution of the instruction takes {} seconds".format(toc-tic))
                 # try:
@@ -498,6 +545,9 @@ class plot_agent:
         
         elif ins=='test':
             self.test_mode = not self.test_mode
+
+        elif ins=='feedback':
+            self.feedback_mode = not self.feedback_mode
         
         elif ins=='reset':
             self.reset()
@@ -505,13 +555,7 @@ class plot_agent:
         else:
             self.update(self.__natural_lang_translate(ins))
         
-        if self.plotting() == -1:
-            self.data, label_setting = self.generate_data()
-            if self.data == None:
-                print("Please specify the plot type.")
-            else:
-                self.update(label_setting)
-                self.plotting()
+        self.plotting()
             # try:
             #     self.plotting()
             # except Exception:

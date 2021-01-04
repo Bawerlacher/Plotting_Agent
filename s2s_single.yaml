@@ -33,7 +33,20 @@ train_steps: 100000
 valid_steps: 5000
 report_every: 100
 
+# Primary
 encoder_type: brnn
 layers: 2
 rnn_size: 128 
 batch_size: 16
+
+# layer 3
+# encoder_type: brnn
+# layers: 3
+# rnn_size: 128 
+# batch_size: 16
+
+# size 256
+# encoder_type: brnn
+# layers: 2
+# rnn_size: 256
+# batch_size: 16
