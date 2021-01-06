@@ -415,6 +415,7 @@ class plot_agent:
             
             elif ins=="set fix color":
                 self.fix_color = input("Enter your favorite color: ")
+                continue
 
             elif ins=='exit':
                 break

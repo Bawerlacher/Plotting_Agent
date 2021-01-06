@@ -1,0 +1,5 @@
+line graph ; solid orange ; round magenta markers ; polarized ; name trajectory
+grid lines both vert and horiz , gray dash/dots ; large markers
+marker interval 3
+larger interval
+grid line width -thin
