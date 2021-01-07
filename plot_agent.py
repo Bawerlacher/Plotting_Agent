@@ -443,9 +443,13 @@ class plot_agent:
                 if self.feedback_mode:
                     deltas = self.__natural_lang_translate_multiple(ins)
                     self.plot_multiple(deltas)
-                    select = input("Which one is closest to your intention?")
+                    select, elapse = self.__input_help("Which one is closest to your intention? ")
+                    tic += elapse
+                    
                     while not select.isnumeric() or int(select) >= self.n_best:
-                        select = input("Which one is closes to your intention?")
+                        select, elapse = self.__input_help("Which one is closes to your intention? ")
+                        tic += elapse
+                    
                     related = deltas[int(select)]
                     self.update(related)
                 else:
@@ -785,3 +789,8 @@ class plot_agent:
         return data
 
 
+    def __input_help(self, show_str):
+        tic = time.perf_counter()
+        inp = input(show_str)
+        toc = time.perf_counter()
+        return inp, toc-tic
